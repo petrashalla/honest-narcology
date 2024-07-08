@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/build/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/build/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <title>Name</title>
+    <meta name='keywords' content='' />
+    <meta name='description' content='' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script src="assets/js/build/swiper-bundle.min.js" defer></script> 
+    <script src="assets/js/build/fancybox.min.js" defer></script>
+    <script src="assets/js/main.min.js" defer></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="plashka header__plashka">
+            <div class="container header__plashka-height">
+                <p class="plashka__text">Мы работаем круглосуточно, в выходные и праздники бригады работают в усиленном режиме. В праздничные дни количество бригад увеличено.</p>                
+            </div>
+        </div>
+
+        <div class="header__inner">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top_row">
+                        <div class="header__top_logo">
+                            <a href="index.html" class="header__logo logo">
+                                <picture class="logo__picture">
+                                    <source srcset="assets/img/logo.svg" type="image/svg+xml">
+                                    <img src="assets/img/logo.png" alt="Logo">
+                                </picture>
+                            </a>  
+                        </div>
+
+                        <div class="header__top_item header__top_contacts">
+                            <div class="header__top_contact">
+                                <img src="assets/img/icons/location.svg" class="header__contact_img">
+                                <div class="header__contact_inner">
+                                    <a href="#" class="header__contact_link popup-btn" data-path="popup__city">Санкт-Петербург, Очаковская улица, 9</a>
+                                    <p class="header__contact_text">Адрес call-центра</p>                                    
+                                </div>
+                            </div>
+                            <div class="header__top_contact">
+                                <img src="assets/img/icons/phone.svg" class="header__contact_img">
+                                <div class="header__contact_inner">
+                                    <a href="tel:89612691655" class="header__contact_link">+7 (961) 269 16-55</a>
+                                    <p class="header__contact_text">Круглосуточно, анонимно</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="header__top_item">
+                            <a href="#" class="header__top_network">
+                                <img src="assets/img/icons/whatsapp.svg" alt="whatsapp">
+                            </a>
+                            <a href="#" class="header__top_network">
+                                <img src="assets/img/icons/tg.svg" alt="tg">
+                            </a>
+                        </div>
+
+                        <div class="header__top_item">
+                            <button class="standart-btn white-btn header__top_btn popup-btn" data-path="popup-call">Вызвать врача</button>
+                            <button class="standart-btn header__top_btn popup-btn" data-path="popup-call">Перезвоните мне</button>
+                        </div>
+
+
+                        <div class="header-mobile__wrapper">
+                            <div class="header__top--mobile">
+                                <a href="tel:88000000000" class="header__btn-phone--mobile">
+                                    <img src="assets/img/icons/phone.svg" class="header__btn-phone--mobile">
+                                </a>
+                                <div class="burger__menu">
+                                    <span> </span>
+                                    <span> </span>
+                                    <span> </span>
+                                </div>                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="header__bottom">
+                <div class="container">
+                    <div class="header-mobile__wrapper"> 
+                        <form class="header__bottom_search">
+                            <input id="searchInput" type="search" placeholder="Поиск по сайту" required class="header__search_input"> 
+                            <img src="assets/img/icons/search.svg" class="header__search_img">
+                            <div id="searchResults" class="header__search-result" style="display: none;">
+                                <p class="header__search-result_text">Результаты поиска:</p>
+                                <ul class="header__search-result_list">
+                                    <li><a href="#" class="header__search-result_link"></a></li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="header__bottom_row">
+                        <nav class="header__bottom_nav">
+                            <ul class="header__bottom_list">
+                                <li class="header__nav_item hide-item">
+                                    <button class="header__nav_link header__link hide-item__link">Услуги</button>
+                                    <div class="hide-item__content header__content">
+                                        <ul class="header__submenu">
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Лечение алкоголизма</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Подпункт 1</a></li>
+                                                        <li><a href="#">Подпункт 2</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Лечение наркомании</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Анонимное лечение наркомании</a></li>
+                                                        <li><a href="#">Лечение никотиновой зависимости</a></li>
+                                                        <li><a href="#">Лечение зависимости от марихуаны</a></li>
+                                                        <li><a href="#">Лечение зависимости от соли</a></li>
+                                                        <li><a href="#">Лечение зависимости от кодеина</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Реабилитация</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Анонимное лечение наркомании</a></li>
+                                                        <li><a href="#">Лечение никотиновой зависимости</a></li>
+                                                        <li><a href="#">Лечение зависимости от марихуаны</a></li>
+                                                        <li><a href="#">Лечение зависимости от соли</a></li>
+                                                        <li><a href="#">Лечение зависимости от кодеина</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Вывод из запоя</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Анонимное лечение наркомании</a></li>
+                                                        <li><a href="#">Лечение никотиновой зависимости</a></li>
+                                                        <li><a href="#">Лечение зависимости от марихуаны</a></li>
+                                                        <li><a href="#">Лечение зависимости от соли</a></li>
+                                                        <li><a href="#">Лечение зависимости от кодеина</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Кодирование от алкоголизма</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Анонимное лечение наркомании</a></li>
+                                                        <li><a href="#">Лечение никотиновой зависимости</a></li>
+                                                        <li><a href="#">Лечение зависимости от марихуаны</a></li>
+                                                        <li><a href="#">Лечение зависимости от соли</a></li>
+                                                        <li><a href="#">Лечение зависимости от кодеина</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Психиатрия</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Подпункт 1</a></li>
+                                                        <li><a href="#">Подпункт 2</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="header__nav_item hide-item">
+                                    <button class="header__nav_link header__link hide-item__link">О клинике</button>
+                                    <div class="hide-item__content header__content">
+                                        <ul class="header__submenu">
+                                            <li class="header__sublink"><a class="header__sublink_link" href="service.html">Услуги</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="article.html">Статья</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="articles.html">Блог</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="price.html">Цены</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="licenses.html">Лицензии</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="comments.html">Отзывы</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="gallery.html">Фотографии</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="doctors.html">Врачи</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="doctor.html">Карточка врача</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="contacts.html">Контакты</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="faq.html">Вопрос-ответ</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="error.html">404</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="header__nav_item">
+                                    <a href="#" class="header__nav_link header__link">Отзывы</a>
+                                </li>
+
+                                <li class="header__nav_item">
+                                    <a href="#" class="header__nav_link header__link">Специалисты</a>
+                                </li>
+
+                                <li class="header__nav_item">
+                                    <a href="#" class="header__nav_link header__link">Контакты</a>
+                                </li>
+
+                                <li class="header__nav_item">
+                                    <a href="#" class="header__nav_link header__link">Блог</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="header__bottom_right">
+                            <button class="header__bottom_btn">
+                                <img src="assets/img/icons/eye.svg" alt="Версия для слабовидящих">
+                            </button>
+                            <p class="header__bottom_license">Медицинская лицензия: <span>ЛО-77-01-015296</span></p>
+                            <form class="header__bottom_search">
+                                <input id="searchInput" type="search" placeholder="Поиск по сайту" required class="header__search_input"> 
+                                <img src="assets/img/icons/search.svg" class="header__search_img">
+                                <div id="searchResults" class="header__search-result" style="display: none;">
+                                    <p class="header__search-result_text">Результаты поиска:</p>
+                                    <ul class="header__search-result_list">
+                                        <li><a href="#" class="header__search-result_link"></a></li>
+                                    </ul>
+                                </div>
+                            </form>
+
+
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="header-mobile__wrapper">
+                    <div class="container">
+                        <div class="header-mobile__content">
+                            <div class="header-mobile__btns">
+                                <button class="standart-btn white-btn header-mobile__btn popup-btn" data-path="popup-call">
+                                    <span>Вызвать врача</span>
+                                </button>
+                                <button class="standart-btn header-mobile__btn popup-btn" data-path="popup-call">
+                                    <span>Перезвоните мне</span>
+                                </button>
+                            </div> 
+
+                            <div class="header__contacts--mobile">
+                                <div class="header__top_contact">
+                                    <img src="assets/img/icons/location.svg" class="header__contact_img">
+                                    <div class="header__contact_inner">
+                                        <a href="#" class="header__contact_link popup-btn" data-path="popup__city">Санкт-Петербург, Очаковская улица, 9</a>
+                                        <p class="header__contact_text">Адрес call-центра</p>                                    
+                                    </div>
+                                </div>
+                                <div class="header__top_contact">
+                                    <img src="assets/img/icons/phone.svg" class="header__contact_img">
+                                    <div class="header__contact_inner">
+                                        <a href="tel:89612691655" class="header__contact_link">+7 (961) 269 16-55</a>
+                                        <p class="header__contact_text">Круглосуточно, анонимно</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="header__info--mobile">
+                                <div class="header__networks">
+                                    <a href="#" class="header__top_network">
+                                        <img src="assets/img/icons/whatsapp.svg" alt="whatsapp">
+                                    </a>
+                                    <a href="#" class="header__top_network">
+                                        <img src="assets/img/icons/tg.svg" alt="tg">
+                                    </a>                                
+                                </div>
+
+                                <div class="header__licen">
+                                    <button class="header__bottom_btn">
+                                        <img src="assets/img/icons/eye.svg" alt="Версия для слабовидящих">
+                                    </button>
+                                    <p class="header__bottom_license">Медицинская лицензия: <span>ЛО-77-01-015296</span></p>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                  <div class="intro__inner">
+                    <ul class="breadcrumbs breadcrumbs__blue-bg">
+                      <li><a href="#">Главная</a></li>
+                      <li><a href="#">Блог</a></li>
+                      <li>Статья</li>
+                    </ul>
+
+                    <div class="intro__inner_row">
+                      <div class="intro__content intro__content--article">
+                          <div class="intro__cards">
+                              <div class="intro__card">
+                                  <img src="assets/img/icons/intro-icon-calendar.svg" alt="" class="intro__card-img">
+                                  <p class="intro__card-text">Опубликовано: 12.03.2024</p>
+                              </div>
+
+                              <div class="intro__card">
+                                  <img src="assets/img/icons/intro-icon-4.svg" alt="" class="intro__card-img">
+                                  <p class="intro__card-text">Время чтения: 4 мин.</p>
+                              </div>
+                          </div>
+
+                          <div class="intro__content_top">
+                              <h1 class="title title-h1 intro__title">Как работает программа 12 шагов в лечении алкоголизма?</h1>
+                              <p class="intro__text">Метод включает ряд этапов, направленных на борьбу с зависимостями, трансформацию вредных привычек, поиск духовной опоры. Особенность программы – адаптивность, позволяющая применять подход не только для лечения алкогольной зависимости, но и в других областях жизни, где необходимы изменения.</p>
+                          </div>
+                      </div>
+
+                      <div class="intro__nav card navigation">
+                          <p class="above-title above-title--nav">Содержание</p>
+
+                          <nav class="navigation">
+                            <div class="navigation__item">
+                              <ul class="navigation__list">
+                              </ul>
+                            </div>
+                          </nav>
+
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="editors">
+          <div class="container">
+            <div class="editors__row">
+                <div class=" editor">
+                    <div class="editor__top">
+                        <p>Статью подготовил врач:</p>
+                        <p>01.02.2023</p>
+                    </div>
+                    <div class="editor__content">
+                        <div class="editor__info">
+                            <p class="editor__fio">Алексеева Серафима Даниловна</p>
+                            <p class="editor__text">Психоаналитический психотерапевт, психолог</p>
+                            <p class="editor__text">Стаж: 8 лет</p>
+                        </div>
+                        <img src="assets/img/sections/doctors/doctor-2.jpg" alt="" class="editor__img">
+                    </div>
+                </div>
+
+                <div class=" editor">
+                    <div class="editor__top">
+                        <p>Статью проверил эксперт:</p>
+                        <p>01.02.2023</p>
+                    </div>
+                    <div class="editor__content">
+                        <div class="editor__info">
+                            <p class="editor__fio">Кулик Владимир Андреевич</p>
+                            <p class="editor__text">Главный врач, руководитель клиники</p>
+                            <p class="editor__text">Стаж: 8 лет</p>
+                        </div>
+                        <img src="assets/img/sections/doctors/doctor-1.jpg" alt="" class="editor__img">
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-block text__content section">
+            <div class="container">
+                <p class="above-title">Статья</p>
+
+                  <div class="text-block__top">
+                    <div class="text-block__contant_left">
+                        <h2 class="title">Общие принципы программы «12 шагов»</h2>
+
+                        <div class="text-block__video">
+                          <p class="text-block__video_text">Смотрите видео от наших специалистов:</p>
+                              <div class="text-block__video-container">
+                                <video id="video" poster="assets/img/sections/text-block/video-poster.jpg">
+                                    <source src="video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <div class="play-button" id="playButton"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-block__contant_right">
+                        <p>
+                          Метод включает ряд этапов, направленных на борьбу с зависимостями, трансформацию вредных привычек, поиск духовной опоры. Особенность программы – адаптивность, позволяющая применять подход не только для лечения алкогольной зависимости, но и в других областях жизни, где необходимы изменения.
+                        </p>
+                        <p>
+                          Уильям Уилсон, американец, страдавший хроническим алкоголизмом, прекратил употребление в 1935 году с помощью групп поддержки при церкви. Однако он понял, что этого недостаточно для борьбы с пристрастием, и стал искать единомышленника для взаимопомощи. Уильям познакомился с доктором Бобом Смитом, который тоже боролся с алкоголизмом.
+                        </p>
+                        <p>
+                          Мужчины вместе преодолели зависимость и решили распространять свой опыт. Это взаимодействие привело к созданию новой концепции анонимного терапевтического сообщества, основанного на принципах взаимной поддержки и совместного избавления от тяги к спиртному.
+                        </p>
+                        <p>
+                          В том же 1935 году они создали первое сообщество, которое положило начало своду духовных принципов. Программа, зарегистрированная в 1938 году как «12 шагов анонимных алкоголиков», – одна из старейших систем помощи на мировом уровне, насчитывающая 86 лет работы.
+                        </p>
+                        <p>
+                          Изначально этот подход связывали с религиозными учениями из-за элемента признания «высшей силы». Это вызывало опасения у многих атеистов. Современное понимание термина имеет скорее психологическую направленность. Он может интерпретироваться как символ универсальной энергии, система индивидуальных ценностей и убеждений или ключевые жизненные цели.
+                        </p>
+                        <p class="text-block__text_blue">
+                          Программа «12 шагов» для зависимых от алкоголя получила широкое признание в психологическом сообществе за способность влиять на эмоциональное состояние человека. Она применяется не только для борьбы с зависимостями, но и для развития личной ответственности, исследования жизненного смысла, укрепления межличностных связей.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-block__contant">
+                    <div class="text-block__contant_left">
+                        <h3 class="title">Пошаговый обзор программы</h3>
+                        <form action="" class="text-block__form">
+                            <div class="text-block__form_inner">
+                                <p class="text-block__form_title">Оставьте заявку прямо сейчас</p>
+                                <p class="text-block__form_subtitle">Наш специалист свяжется с вами в ближайшие 30 минут.</p>
+                                <input type="text" class="text-block__form_input" placeholder="Имя">
+                                <input type="tel" class="text-block__form_input" placeholder="Телефон">
+                                <button class="standart-btn text-block__form_btn">Перезвоните мне</button>
+                                <p class="text-block__form_politic">Нажимая кнопку вы соглашаетесь с <a href="#" rel="nofollow">политикой конфеденциальности сайта</a></p>
+                            </div>
+                            <img src="assets/img/sections/text-block/form-doctor.png" alt="Doctor" class="text-block__form_img">
+                        </form>
+                    </div>
+
+                    <div class="text-block__contant_right">
+                        <p>
+                            Основная идея системы заключается в том, что человек признаёт неспособность бросить пить самостоятельно, а также контролировать поведение, эмоции, мысли. В прошлом любые события могли служить поводом для употребления алкоголя, что способствовало развитию физиологической зависимости без сопротивления со стороны пациента.
+                        </p>
+                        <h4 class="title-h4">Осознание проблемы</h4>
+                        <p>
+                            Этот этап критически важен для изменений. Именно с него начинается программа «12 шагов» реабилитации наркозависимых и алкоголиков. Без ясного признания того, что проблема существует, невозможно начать эффективную трансформацию собственной жизни. Первый шаг – ключ к самосознанию, ясности дальнейших действий, который задаёт направление на полноценное выздоровление.
+                        </p>
+                        <p>
+                          Понимание этого этапа помогает осознать, что изначальное отрицание – защитный механизм против боли, страха изменений. Но именно признание проблемы мобилизует внутренние ресурсы, помогает начать эмоциональное, психологическое восстановление.
+                        </p>
+                        <p>
+                          Методы осознания потребности в изменениях:
+                        </p>
+                        <ul>
+                            <li>самоанализ – посвятите время размышлениям о тех аспектах жизни, которые вызывают тревогу, неудовлетворённость;</li>
+                            <li>записи в дневник – фиксация мыслей, чувств, внутреннего конфликта раскроет повторяющиеся паттерны поведения;</li>
+                            <li>получение обратной связи – разговоры с людьми, к которым есть доверие, откроют новые перспективы;</li>
+                            <li>обращение за профессиональной помощью – взаимодействие с психотерапевтом обеспечит организованное, объективное понимание ситуации;</li>
+                            <li>рассмотрение последствий – осмысление возможных исходов текущих действий или бездействия послужит мощным мотиватором к изменению;</li>
+                            <li>принятие вины – это знак силы, желания брать на себя ответственность за будущее.</li>
+                        </ul>
+
+                        <h4 class="title-h4">Опора на «высшую силу»</h4>
+                        <p>
+                          Это основной элемент программы. Он играет важную роль в преодолении жизненных препятствий. Этот аспект не требует приверженности к определённой религии, а скорее подчёркивает значимость признания «высшей силы», понимание которой отличается у каждого человека.
+                        </p>
+                        <p>
+                          Вера помогает придать смысл испытаниям, служит источником вдохновения, когда личные ресурсы кажутся истощёнными. Духовные практики – надёжная основа для перемен, достижения внутреннего равновесия.
+                        </p>
+                        <p>
+                          Пути к нахождению вдохновения в себе и среди других:
+                        </p>
+                        <ul>
+                          <li>переосмысление жизни – оценка целей, убеждений, которые придают силу;</li>
+                          <li>медитация, молитва – помогают погрузиться в себя, наладить связь с тем, что человек считает более высоким, достичь умственного спокойствия, духовной ясности;</li>
+                          <li>сообщество единомышленников – взаимодействие с теми, кто разделяет взгляды, усилит веру в восстановление;</li>
+                          <li>исследование духовных текстов – изучение разных религий, философских учений обеспечит мудростью, стойкостью;</li>
+                          <li>диалог с наставником – поможет получить дополнительную поддержку.</li>
+                        </ul>
+
+
+                        <h4 class="title-h4">Стремление к изменению</h4>
+                        <p>Этап требует глубокого понимания внутренних процессов. Это не просто решение, исходящее из воли, а результат осмысления потребности в новых начинаниях, желания пересмотреть привычки.</p>
+                        <p>Человек осознаёт, как отрицательно его текущий образ жизни или поведение влияют на физическое, эмоциональное, социальное благополучие. Решение измениться сопровождается поиском личной мотивации – стремление к улучшению здоровья, отношений, желание достичь большего счастья. Зависимый начинает оценивать потенциальные препятствия на пути к изменениям, что способствует более продуманно принимать решения.</p>
+                        <p>Важная часть шага – осознание, что каждый несёт ответственность за свою жизнь.</p>
+
+
+                        <h4 class="title-h4">Нравственное самопознание</h4>
+                        <p>На этом этапе человек заменяет старую идентичность на новую, что ведёт к переосмыслению своего прошлого. При выздоровлении появляется чувство вины, однако важно, чтобы оно не стало источником самоагрессии. Главная цель – объективно оценить себя, осознать истинное «я».</p>
+                        <p>Необходимо честно осмыслить личные мотивы, обиды,чтобы обнаружить свою настоящую сущность. Осознание реальных желаний, причин негативных реакций – важный этап понимания себя.</p>
+
+                        <h4 class="title-h4">Признание своих ошибок</h4>
+                        <p>На этой стадии участники должны завершить самоанализ и открыто признать заблуждения перед «высшей силой» и остальными членами группы. Это трудный, болезненный процесс, поскольку необходимо преобразовать внутреннее чувство вины в явное выражение.</p>
+                        <p>Такой шаг требует мужества, прямоты, способствует развитию ответственности перед теми, кто поддерживал участника.</p>
+
+                        <h4 class="title-h4">Подготовка к избавлению от зависимости и самопринятие</h4>
+                        <p>Этап основан на признании личной готовности к изменениям, исправлению проблем. Участник осознаёт, что зависимость – это преграда к здоровой, трезвой жизни. Принятие своих недостатков открывает путь к истинному выздоровлению, считается показателем успеха реабилитации.</p>
+
+
+                        <h4 class="title-h4">Поддержка в достижении устойчивого выздоровления</h4>
+                        <p>На этом этапе программы «12 шагов» для анонимных наркозависимых и алкоголиков участник обращается с молитвой к «высшей силе», просит о помощи в изменении устоявшихся привычек, формировании новых. Осознание собственного бессилия ведёт к желанию стабильного выздоровления.</p>
+                        <p>Готовность активно идти к трезвости изменяют внутреннее «я». Энергия вины преобразуется в положительные личностные трансформации.</p>
+
+
+                        <h4 class="title-h4">Создание списка пострадавших от зависимости</h4>
+                        <p>Участник составляет перечень людей, пострадавших от его алкоголизма, разрабатывает план действий для исправления ошибок. Это помогает избавиться от чувства вины. Искреннее раскаяние очень важно.</p>
+                        <p>Следует оставаться спокойным при принятии критики от пострадавших, так как прощение необходимо для восстановления душевного равновесия.</p>
+
+
+                        <h4 class="title-h4">Возобновление здоровых отношений</h4>
+                        <p>На этой стадии участник активно работает над возмещением морального ущерба, нанесённого близким. Задача – не просто признать ошибки, а восстановить гармоничные отношения. Важно принять полную ответственность за причинённую боль.</p>
+                        <p>Этот шаг требует значительных усилий, поддержки куратора, который помогает преодолеть страхи, разработать конкретный план действий для искупления вины.</p>
+
+
+                        <h4 class="title-h4">Самоанализ</h4>
+                        <p>Шаг требует от участника продолжения познания себя, начатого на более ранних этапах. Отличие от предыдущих шагов в том, что участник уже продвинулся к выздоровлению и способен объективно оценивать действия, делать обоснованные выводы. Самонаблюдение поможет избегать повторения ошибок, поддерживать баланс.</p>
+
+
+                        <h4 class="title-h4">Укрепление духовных основ</h4>
+                        <p>Участник находит в себе стойкость, что помогает обрести уверенность, покой. Это включает разнообразные практики (медитации, молитвы), которые теперь становятся частью жизни, помогают снизить стресс, сосредоточиться на целях, отпустить негативные мысли. Такая тактика уменьшает вероятность возврата к старым привычкам.</p>
+
+
+                        <h4 class="title-h4">Духовное пробуждение</h4>
+                        <p>Благодаря упорному труду над собой, участник трансформируется в независимую, многогранную личность, полную радости, чувства свободы. Часто на этом этапе программы «12 шагов» для зависимых люди стремятся делиться своим опытом, вдохновением, помогать другим освободиться от заболевания.</p>
+                    </div>
+
+                    <form action="" class="text-block__form--mobile">
+                        <div class="text-block__form_inner">
+                            <p class="text-block__form_title">Оставьте заявку прямо сейчас</p>
+                            <p class="text-block__form_subtitle">Наш специалист свяжется с вами в ближайшие 30 минут.</p>
+                            <input type="text" class="text-block__form_input" placeholder="Имя">
+                            <input type="tel" class="text-block__form_input" placeholder="Телефон">
+                            <button class="standart-btn text-block__form_btn">Перезвоните мне</button>
+                            <p class="text-block__form_politic">Нажимая кнопку вы соглашаетесь с <a href="#" rel="nofollow">политикой конфеденциальности сайта</a></p>
+                        </div>
+                        <img src="assets/img/sections/text-block/form-doctor.png" alt="Doctor" class="text-block__form_img">
+                    </form>
+                </div>
+
+                <div class="text-block__contant">
+                    <div class="text-block__contant_left">
+                        <h3 class="title-h3">Как начать путь к трезвости</h3>
+                        <img src="assets/img/sections/text-block/text-block-3.jpg" alt="">
+                    </div>
+                    <div class="text-block__contant_right">
+                        <p>
+                          Некоторые считают, что эффективный совет для начинающих восстанавливающихся людей заключается в простом правиле – не употреблять алкоголь, наркотики, регулярно посещать встречи. Если такой подход работает, придерживайтесь его. Но для многих поддержание трезвости – более сложная задача. Усвоение различных стратегий, позволяющих распознавать триггеры, справляться со стрессом, эффективно управлять жизнью без употребления, значительно упрощает профилактику возврата к прежним привычкам.
+                        </p>
+                        <p>
+                          Основа предотвращения рецидива – осознание внешних и внутренних триггеров. К первым относятся люди, места, предметы, ситуации, которые провоцируют желание употреблять, ко вторым – чувства, мысли, эмоции.
+                        </p>
+                        <p>
+                          Рецидив происходит незаметно, потому что предупреждающие признаки не распознают вовремя:
+                        </p>
+                        <ul>
+                          <li>возврат мыслей, способствующих росту тяги к спиртному;</li>
+                          <li>одержимое поведение, ведущее к саморазрушению;</li>
+                          <li>ситуации, связанные с людьми, употребляющими алкоголь или наркотики;</li>
+                          <li>менее рациональное мышление, безответственные поступки;</li>
+                          <li>попадание в ситуации, в которых пьянство – решение для облегчения боли.</li>
+                        </ul>
+                        <p>
+                          Абстинентный синдром характеризуется длительными симптомами, возникающими после окончания детоксикационного периода. Эти признаки часто связаны с эмоциональным состоянием, включают чувства раздражительности, тревожности, депрессии, нарушения сна.
+                        </p>
+                        <p>
+                          Продолжительность ломки длится от 6 месяцев до 2 лет. Управление этими симптомами критически важно для успешного восстановления.
+                        </p>
+                        <p>
+                          Простой отказ от алкоголя или наркотиков без изменения образа жизни, круга общения увеличивает риск срыва. Важно отказаться от старых привычек и мест, которые ассоциируются с употреблением.
+                        </p>
+                        <p>
+                          Первый шаг – прекращение общения с теми, кто по-прежнему пьёт алкоголь или поставляет наркотики. Можно изменить маршрут проезда на работу. Вступление в группу АА, укрепление связей с близкими, которые поддерживают трезвость, тоже будут полезными.
+                        </p>
+                        <p>
+                          Психотерапевт поможет справиться с препятствиями, купировать сопутствующие расстройства, которые осложняют восстановление.
+                        </p>
+                        <p>
+                          Также есть термин «усталость от трезвости». Состояние выражается в общем утомлении от эмоционального, физического напряжения, связанного с поддержанием здорового образа жизни. В такие моменты наличие помощи особенно важно.
+                        </p>
+                    </div>
+                </div>      
+                
+                <div class="text-block__contant">
+                    <div class="text-block__contant_left">
+                        <h3 class="title-h3">Преимущества лечения в наркологической клинике</h3>
+                    </div>
+                    <div class="text-block__contant_right">
+                        <p>Реабилитационный центр «Честный нарколог» предложит помощь психиатров для долгосрочного восстановления после детоксикации.</p>
+                        <ol>
+                            <li>Психотерапевтические тактики, направленные на изменение мышления зависимого, позволяют эффективно избавиться от алкоголизма и наркомании.</li>
+                            <li>Мы работаем анонимно – не ставим своих пациентов на учёт, не разглашаем информацию третьим лицам.</li>
+                            <li>Все применяемые методики, в том числе реабилитация за «12 шагов», одобрены Минздравом и ГОСТами.</li>
+                        </ol>
+                    </div>
+                </div>   
+
+                <div class="text-block__contant text-block__contant--order">
+                    <div class="text-block__contant_left">
+                        <div class="text-block__share">
+                          <p>Оцените статью</p>
+
+                          <div class="full-stars"> 
+                              <div class="rating-group"> 
+                                  <input name="fst" value="0" type="radio" disabled checked /> 
+                                  
+                                  <label for="fst-1"> 
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M11.072 1.31085C11.4079 0.474382 12.5921 0.47438 12.928 1.31085L15.3868 7.43386C15.5298 7.79007 15.8642 8.03296 16.2471 8.05893L22.8303 8.5053C23.7296 8.56628 24.0955 9.69246 23.4038 10.2704L18.3403 14.501C18.0457 14.7471 17.918 15.1401 18.0117 15.5124L19.6215 21.9113C19.8414 22.7854 18.8834 23.4814 18.12 23.0022L12.5317 19.4938C12.2066 19.2897 11.7934 19.2897 11.4683 19.4938L5.88004 23.0022C5.11662 23.4814 4.15863 22.7854 4.37854 21.9113L5.98833 15.5124C6.08197 15.1401 5.95428 14.7471 5.65971 14.501L0.596195 10.2704C-0.0955346 9.69246 0.270387 8.56628 1.16972 8.5053L7.75287 8.05893C8.13584 8.03296 8.47015 7.79007 8.61319 7.43386L11.072 1.31085Z"/>
+                                      </svg>
+                                  </label> 
+                                  <input name="fst" id="fst-1" value="1" type="radio" /> 
+                                  
+                                  <label for="fst-2"> 
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M11.072 1.31085C11.4079 0.474382 12.5921 0.47438 12.928 1.31085L15.3868 7.43386C15.5298 7.79007 15.8642 8.03296 16.2471 8.05893L22.8303 8.5053C23.7296 8.56628 24.0955 9.69246 23.4038 10.2704L18.3403 14.501C18.0457 14.7471 17.918 15.1401 18.0117 15.5124L19.6215 21.9113C19.8414 22.7854 18.8834 23.4814 18.12 23.0022L12.5317 19.4938C12.2066 19.2897 11.7934 19.2897 11.4683 19.4938L5.88004 23.0022C5.11662 23.4814 4.15863 22.7854 4.37854 21.9113L5.98833 15.5124C6.08197 15.1401 5.95428 14.7471 5.65971 14.501L0.596195 10.2704C-0.0955346 9.69246 0.270387 8.56628 1.16972 8.5053L7.75287 8.05893C8.13584 8.03296 8.47015 7.79007 8.61319 7.43386L11.072 1.31085Z"/>
+                                      </svg>
+                                  </label> 
+                                  <input name="fst" id="fst-2" value="2" type="radio" /> 
+                                  
+                                  <label for="fst-3"> 
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M11.072 1.31085C11.4079 0.474382 12.5921 0.47438 12.928 1.31085L15.3868 7.43386C15.5298 7.79007 15.8642 8.03296 16.2471 8.05893L22.8303 8.5053C23.7296 8.56628 24.0955 9.69246 23.4038 10.2704L18.3403 14.501C18.0457 14.7471 17.918 15.1401 18.0117 15.5124L19.6215 21.9113C19.8414 22.7854 18.8834 23.4814 18.12 23.0022L12.5317 19.4938C12.2066 19.2897 11.7934 19.2897 11.4683 19.4938L5.88004 23.0022C5.11662 23.4814 4.15863 22.7854 4.37854 21.9113L5.98833 15.5124C6.08197 15.1401 5.95428 14.7471 5.65971 14.501L0.596195 10.2704C-0.0955346 9.69246 0.270387 8.56628 1.16972 8.5053L7.75287 8.05893C8.13584 8.03296 8.47015 7.79007 8.61319 7.43386L11.072 1.31085Z"/>
+                                      </svg>
+                                  </label> 
+                                  <input name="fst" id="fst-3" value="3" type="radio" /> 
+      
+                                  <label for="fst-4"> 
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M11.072 1.31085C11.4079 0.474382 12.5921 0.47438 12.928 1.31085L15.3868 7.43386C15.5298 7.79007 15.8642 8.03296 16.2471 8.05893L22.8303 8.5053C23.7296 8.56628 24.0955 9.69246 23.4038 10.2704L18.3403 14.501C18.0457 14.7471 17.918 15.1401 18.0117 15.5124L19.6215 21.9113C19.8414 22.7854 18.8834 23.4814 18.12 23.0022L12.5317 19.4938C12.2066 19.2897 11.7934 19.2897 11.4683 19.4938L5.88004 23.0022C5.11662 23.4814 4.15863 22.7854 4.37854 21.9113L5.98833 15.5124C6.08197 15.1401 5.95428 14.7471 5.65971 14.501L0.596195 10.2704C-0.0955346 9.69246 0.270387 8.56628 1.16972 8.5053L7.75287 8.05893C8.13584 8.03296 8.47015 7.79007 8.61319 7.43386L11.072 1.31085Z"/>
+                                      </svg>
+                                  </label> 
+                                  <input name="fst" id="fst-4" value="4" type="radio" /> 
+  
+                                  <label for="fst-5"> 
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M11.072 1.31085C11.4079 0.474382 12.5921 0.47438 12.928 1.31085L15.3868 7.43386C15.5298 7.79007 15.8642 8.03296 16.2471 8.05893L22.8303 8.5053C23.7296 8.56628 24.0955 9.69246 23.4038 10.2704L18.3403 14.501C18.0457 14.7471 17.918 15.1401 18.0117 15.5124L19.6215 21.9113C19.8414 22.7854 18.8834 23.4814 18.12 23.0022L12.5317 19.4938C12.2066 19.2897 11.7934 19.2897 11.4683 19.4938L5.88004 23.0022C5.11662 23.4814 4.15863 22.7854 4.37854 21.9113L5.98833 15.5124C6.08197 15.1401 5.95428 14.7471 5.65971 14.501L0.596195 10.2704C-0.0955346 9.69246 0.270387 8.56628 1.16972 8.5053L7.75287 8.05893C8.13584 8.03296 8.47015 7.79007 8.61319 7.43386L11.072 1.31085Z"/>
+                                      </svg>
+                                  </label> 
+                                  <input name="fst" id="fst-5" value="5" type="radio" /> 
+                              </div> 
+                          </div>
+
+                        </div>
+
+                        <div class="text-block__share">
+                          <p>Поделиться</p>
+                          <ul class="text-block__social">
+                            <a href="#">
+                              <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5173 3.24434C14.0862 1.87545 11.7659 1.87545 10.3348 3.24434L9.04536 4.50406C8.82084 4.71882 8.45682 4.71882 8.23231 4.50406C8.00779 4.28931 8.00779 3.94112 8.23231 3.72636L9.52173 2.46663C11.4019 0.668233 14.4502 0.668236 16.3303 2.46664C18.2105 4.26504 18.2105 7.18082 16.3303 8.97922L14.6173 10.6178C12.7372 12.4162 9.68886 12.4162 7.80871 10.6178C7.51136 10.3333 7.44401 10.2967 7.24023 9.96398C7.07971 9.70194 7.17167 9.36504 7.44563 9.2115C7.71958 9.05797 8.07179 9.14593 8.23231 9.40797C8.46335 9.67032 8.39432 9.6225 8.62176 9.84005C10.0529 11.2089 12.3732 11.2089 13.8043 9.84005L15.5173 8.20151C16.9484 6.83263 16.9484 4.61322 15.5173 3.24434ZM10.3782 8.15995C8.94713 6.79106 6.62684 6.79106 5.19573 8.15995L3.48272 9.79848C2.05161 11.1674 2.05161 13.3868 3.48272 14.7557C4.91383 16.1245 7.23411 16.1245 8.66522 14.7557L10.0296 13.4506C10.2541 13.2359 10.6181 13.2359 10.8426 13.4506C11.0671 13.6654 11.0671 14.0136 10.8426 14.2283L9.47827 15.5334C7.59812 17.3318 4.54981 17.3318 2.66966 15.5334C0.789517 13.735 0.789518 10.8192 2.66966 9.02078L4.38268 7.38224C6.26283 5.58384 9.31114 5.58385 11.1913 7.38225C11.4886 7.66666 11.6063 7.82727 11.8101 8.15995C11.9706 8.42199 11.8786 8.75889 11.6047 8.91243C11.3307 9.06596 10.9785 8.978 10.818 8.71596C10.5497 8.37452 10.6057 8.3775 10.3782 8.15995Z" fill="#367AE3" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.24981 2.20653C11.2801 0.264486 14.5719 0.26449 16.6023 2.20654C18.6326 4.14859 18.6326 7.29727 16.6023 9.23932L14.8892 10.8779C12.8589 12.8199 9.56711 12.8199 7.53679 10.8779C7.49783 10.8406 7.4607 10.8057 7.42542 10.7725C7.33958 10.6918 7.26466 10.6214 7.20082 10.5521C7.09897 10.4415 7.01707 10.3273 6.90843 10.1499C6.64055 9.71261 6.79402 9.15037 7.25122 8.89413C7.69789 8.6438 8.2692 8.77815 8.54508 9.19226C8.62534 9.28399 8.67169 9.34108 8.70283 9.37943C8.71295 9.3919 8.72147 9.40239 8.72902 9.41144C8.75582 9.44358 8.7837 9.47475 8.89369 9.57995C10.1746 10.8052 12.2514 10.8052 13.5323 9.57996L15.2454 7.94142C16.5263 6.71618 16.5263 4.72967 15.2454 3.50444C13.9649 2.27964 11.8891 2.2792 10.6081 3.50309L9.3173 4.76418C8.9426 5.12258 8.33508 5.12257 7.96039 4.76416C7.58623 4.40627 7.58569 3.82634 7.95877 3.46781L9.24981 2.20653ZM9.79506 2.72539L8.50424 3.98647C8.4299 4.05758 8.42989 4.17286 8.50423 4.24397C8.57821 4.31474 8.69795 4.31507 8.77237 4.24498L10.06 2.987L10.0629 2.98424C11.6441 1.4717 14.2079 1.4717 15.7892 2.98424C17.3705 4.49677 17.3705 6.94908 15.7892 8.46161L14.0762 10.1002C12.4949 11.6127 9.93113 11.6127 8.34984 10.1001C8.19163 9.94881 8.14852 9.89615 8.08113 9.81381C8.04635 9.77131 8.00509 9.72091 7.9382 9.64495C7.92415 9.629 7.91154 9.61193 7.90051 9.59393C7.84736 9.50716 7.73074 9.47803 7.64003 9.52887C7.54932 9.57971 7.51888 9.69126 7.57202 9.77803C7.66718 9.93336 7.72084 10.0038 7.77795 10.0658C7.82291 10.1146 7.86844 10.1574 7.94016 10.2247C7.97829 10.2606 8.02384 10.3033 8.08063 10.3577C9.8106 12.0124 12.6154 12.0124 14.3454 10.3577L16.0584 8.71912C17.7884 7.06437 17.7884 4.38148 16.0584 2.72673C14.3289 1.07243 11.5251 1.07198 9.79506 2.72539ZM4.11076 7.12215C6.14108 5.1801 9.43289 5.1801 11.4632 7.12215C11.7885 7.43329 11.9253 7.62044 12.1419 7.97399C12.4097 8.41132 12.2563 8.97356 11.7991 9.22979C11.3489 9.48208 10.7722 9.34367 10.4988 8.92194C10.3896 8.78207 10.3297 8.69386 10.2885 8.63306C10.2789 8.61898 10.2704 8.60637 10.2624 8.59493C10.2305 8.54896 10.2046 8.51405 10.1063 8.42005C8.82538 7.19481 6.74859 7.19481 5.46766 8.42004L3.75464 10.0586C2.47371 11.2838 2.47371 13.2703 3.75464 14.4956C5.03557 15.7208 7.11237 15.7208 8.3933 14.4956L9.75764 13.1905C10.1323 12.8321 10.7398 12.8321 11.1145 13.1905C11.4892 13.5489 11.4892 14.13 11.1145 14.4884L9.75019 15.7935C7.71987 17.7355 4.42806 17.7355 2.39774 15.7935C0.367419 13.8514 0.367419 10.7027 2.39774 8.76068L4.11076 7.12215ZM10.9194 7.64234C9.1894 5.98759 6.38457 5.98759 4.6546 7.64234L2.94158 9.28088C1.21162 10.9356 1.21162 13.6185 2.94158 15.2733C4.67155 16.928 7.47638 16.928 9.20635 15.2733L10.5707 13.9682C10.645 13.8971 10.645 13.7818 10.5707 13.7107C10.4964 13.6396 10.3758 13.6396 10.3015 13.7107L8.93714 15.0158C7.35585 16.5283 4.79208 16.5283 3.21079 15.0158C1.62951 13.5032 1.62951 11.0509 3.2108 9.53839L4.92381 7.89985C6.5051 6.38731 9.06887 6.38731 10.6502 7.89985C10.7793 8.0234 10.8391 8.09577 10.9032 8.18806C10.9139 8.20351 10.9243 8.2188 10.9351 8.2347C10.9772 8.29666 11.0256 8.36797 11.1254 8.49498C11.1342 8.5062 11.1424 8.51789 11.1498 8.53C11.2029 8.61677 11.3195 8.64589 11.4103 8.59506C11.501 8.54422 11.5314 8.43267 11.4783 8.3459C11.2873 8.0341 11.1888 7.90004 10.9194 7.64234Z" fill="#367AE3" />
+                              </svg>
+                            </a>
+
+                            <a href="#">
+                              <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.08213 7.48177C2.77012 6.47136 4.65438 5.62807 6.41494 4.78046C9.44379 3.39215 12.4847 2.0279 15.5562 0.7578C16.1539 0.541387 17.2276 0.329747 17.3329 1.29216C17.2753 2.65445 17.0381 4.00877 16.8754 5.36308C16.4625 8.34134 15.9853 11.3094 15.5199 14.2779C15.3596 15.2666 14.2197 15.7785 13.4904 15.1457C11.7377 13.8591 9.97144 12.5851 8.24108 11.2687C7.67426 10.6428 8.19987 9.74403 8.7061 9.29709C10.1497 7.75107 11.6807 6.43756 13.0488 4.81165C13.4179 3.84315 12.3275 4.65938 11.9678 4.90946C9.99148 6.38944 8.06354 7.95977 5.97989 9.26047C4.91556 9.89716 3.67507 9.35305 2.61122 8.99777C1.65735 8.5686 0.259669 8.13617 1.08213 7.48177Z" fill="#367AE3" />
+                              </svg>
+                            </a>
+
+                            <a href="#">
+                              <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.9685 8.11218C16.3585 6.61577 16.5641 6.84348 18.5166 4.27356C19.6813 2.71209 20.1609 1.73617 20.0238 1.31327C19.9553 1.05302 19.0304 1.11808 19.0304 1.11808H16.153C16.153 1.11808 15.7077 1.11808 15.5364 1.41086C15.2281 1.96388 15.0911 2.64703 14.4745 3.65548C13.1728 5.83503 12.659 5.96516 12.4534 5.83503C11.9738 5.50973 12.0766 4.56634 12.0766 3.88319C12.0766 1.7687 12.3849 0.890368 11.46 0.630123C11.2545 0.565061 11.0832 0.565061 10.7749 0.53253C10.3981 0.5 10.0213 0.5 9.67874 0.5C8.82236 0.5 8.17151 0.53253 7.72619 0.727714C7.38364 0.890368 7.14385 1.24821 7.31512 1.28074C7.52066 1.31327 7.93172 1.41086 8.17151 1.70364C8.4798 2.094 8.44555 3.00486 8.44555 3.00486C8.44555 3.00486 8.61683 5.50973 8.03449 5.8025C7.65768 6.03022 7.10959 5.57479 5.97917 3.59042C5.39683 2.58196 5.32832 1.89882 4.95151 1.44339C4.71172 1.15061 4.2664 1.05302 4.2664 1.05302H1.52598C1.52598 1.05302 1.0464 1.02049 0.977891 1.15061C0.840869 1.31327 0.977891 1.63857 0.977891 1.63857C0.977891 1.63857 3.13598 6.68083 5.5681 9.21823C7.72619 11.6255 10.2611 11.4954 10.2611 11.4954C10.2611 11.4954 11.7341 11.5604 11.9396 11.2026C12.0766 11.0725 12.1109 10.6821 12.1109 10.6821C12.1109 10.6821 12.0766 9.12063 12.796 8.89292C13.5153 8.6652 14.406 10.3893 15.3651 11.0399C16.0845 11.5604 16.29 11.4954 16.6326 11.4954C17.3177 11.4954 19.2017 11.4954 19.2017 11.4954C19.2017 11.4954 20.5377 11.3653 19.9211 10.2917C19.8183 10.2267 19.51 9.54353 17.9685 8.11218Z" fill="#367AE3" />
+                              </svg>
+                            </a>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="text-block__contant_right">
+                        <h4 class="title-h4">Список литературы</h4>
+                        <ol>
+                            <li>Официальный сайт Министерства здравоохранения Российской Федерации</li>
+                            <li>Официальный сайт Министерства здравоохранения Российской Федерации</li>
+                            <li>Официальный сайт Министерства здравоохранения Российской Федерации</li>
+                            <li>Официальный сайт Министерства здравоохранения Российской Федерации</li>
+                        </ol>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section class="articles section">
+            <div class="container">
+                <p class="above-title">Статьи</p>
+
+                <div class="articles__cards">
+                    <div class="articles__card articles__card articles__card--big">
+                        <div class="blue-bg">
+                            <img src="assets/img/sections/articles/article-1.jpg" class="articles__card_img">
+                        </div>
+                        <div class="articles__card_info">
+                            <p class="articles__card_title">Лечение подростков от курения табака или электронных устройств</p>
+                            <p class="articles__card_date">14.04.2024</p>                            
+                        </div>
+                    </div>
+
+                    <div class="articles__card articles__card">
+                        <div class="blue-bg">
+                            <img src="assets/img/sections/articles/article-2.jpg" class="articles__card_img">
+                        </div>
+                        <div class="articles__card_info">
+                            <p class="articles__card_title">Как распознать алкоголика по внешним признакам?</p>
+                            <p class="articles__card_date">14.04.2024</p>                            
+                        </div>
+                    </div>
+
+                    <div class="articles__card articles__card">
+                        <div class="blue-bg">
+                            <img src="assets/img/sections/articles/article-3.jpg" class="articles__card_img">
+                        </div>
+                        <div class="articles__card_info">
+                            <p class="articles__card_title">Что делать если человек после запоя заторможенный?</p>
+                            <p class="articles__card_date">14.04.2024</p>                            
+                        </div>
+                    </div>
+
+                    <div class="articles__card articles__card">
+                        <div class="blue-bg">
+                            <img src="assets/img/sections/articles/article-4.jpg" class="articles__card_img">
+                        </div>
+                        <div class="articles__card_info">
+                            <p class="articles__card_title">Как работает программа 12 шагов в лечении алкоголизма?</p>
+                            <p class="articles__card_date">14.04.2024</p>                            
+                        </div>
+                    </div>
+
+                    <div class="articles__card articles__card">
+                        <div class="blue-bg">
+                            <img src="assets/img/sections/articles/article-5.jpg" class="articles__card_img">
+                        </div>
+                        <div class="articles__card_info">
+                            <p class="articles__card_title">Как восстановится после запоя?</p>
+                            <p class="articles__card_date">14.04.2024</p>                            
+                        </div>
+                    </div>
+
+                    <div class="articles__card articles__card articles__card--big">
+                        <div class="blue-bg">
+                            <img src="assets/img/sections/articles/article-6.jpg" class="articles__card_img">
+                        </div>
+                        <div class="articles__card_info">
+                            <p class="articles__card_title">Что делать, если муж алкоголик: пути решения и поиск эффективной помощи</p>
+                            <p class="articles__card_date">14.04.2024</p>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="articles__btn">
+                    <a href="#" class="standart-btn white-btn articles__link">Все статьи</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="fears section">
+            <div class="container">
+                <div class="fears__inner card">
+                    <h2 class="fears__title title">Распространенные страхи и возражения</h2>
+                    <ol class="faq__list">
+                        <li class="faq__item">
+                            <button class="faq__btn faq__accordion">
+                                <h3 class="faq__text">Наркологическая клиника присылает на вызов врача или медсестру?</h3>
+                                <span class="faq__more"></span>
+                            </button>
+                            <div class="faq__panel">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab cupiditate enim perspiciatis illum sunt quia, dicta qui sit incidunt saepe quibusdam ipsam dignissimos inventore. Asperiores mollitia vel temporibus magni.</p>
+                            </div>                            
+                        </li>
+
+                        <li class="faq__item">
+                            <button class="faq__btn faq__accordion">
+                                <h3 class="faq__text">В капельницу от запоя и детоксикации входят седативы – кто закроет дом, если больной уснет?</h3>
+                                <span class="faq__more"></span>
+                            </button>
+                            <div class="faq__panel">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab cupiditate enim perspiciatis illum sunt quia, dicta qui sit incidunt saepe quibusdam ipsam dignissimos inventore. Asperiores mollitia vel temporibus magni.</p>
+                            </div>                            
+                        </li>
+
+                        <li class="faq__item">
+                            <button class="faq__btn faq__accordion">
+                                <h3 class="faq__text">Поможет ли курс лечения?</h3>
+                                <span class="faq__more"></span>
+                            </button>
+                            <div class="faq__panel">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab cupiditate enim perspiciatis illum sunt quia, dicta qui sit incidunt saepe quibusdam ipsam dignissimos inventore. Asperiores mollitia vel temporibus magni.</p>
+                            </div>                            
+                        </li>
+
+                        <li class="faq__item">
+                            <button class="faq__btn faq__accordion">
+                                <h3 class="faq__text">У вас есть лицензия на услуги нарколога?</h3>
+                                <span class="faq__more"></span>
+                            </button>
+                            <div class="faq__panel">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab cupiditate enim perspiciatis illum sunt quia, dicta qui sit incidunt saepe quibusdam ipsam dignissimos inventore. Asperiores mollitia vel temporibus magni.</p>
+                            </div>                            
+                        </li>
+
+                        <li class="faq__item">
+                            <button class="faq__btn faq__accordion">
+                                <h3 class="faq__text">Насколько безопасны процедуры кодирования и вывода из запоя?</h3>
+                                <span class="faq__more"></span>
+                            </button>
+                            <div class="faq__panel">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ab cupiditate enim perspiciatis illum sunt quia, dicta qui sit incidunt saepe quibusdam ipsam dignissimos inventore. Asperiores mollitia vel temporibus magni.</p>
+                            </div>                            
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="doctors section">
+            <div class="container">
+                <div class="above-title above-title__swiper">
+                    <p>Наши специалисты</p>
+                    <div class="doctors__swiper-btns swiper-btns">
+                        <div class="doctors__swiper-button-prev swiper-button-prev">
+                            <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.57227 0.94062C9.99375 1.15898 10.1766 1.57031 10.0547 2.03242C10.0039 2.23554 9.67891 2.57578 6.61172 5.64297L3.22461 9.03515L14.3051 9.04531L25.3805 9.06054L25.6039 9.21289C25.8832 9.41093 26 9.63945 26 10C26 10.4672 25.7309 10.8176 25.3094 10.9141C25.1926 10.9445 20.5563 10.9648 14.173 10.9648H3.22969L6.56094 14.2758C8.38906 16.0988 9.93281 17.673 9.98359 17.7695C10.1004 17.998 10.1055 18.45 9.98867 18.6684C9.83633 18.9527 9.57734 19.1102 9.2168 19.1305C8.98828 19.1457 8.85625 19.1254 8.7293 19.0645C8.4957 18.9477 0.223438 10.6855 0.0964851 10.4469C0.0406265 10.3301 0 10.1574 0 10C0 9.84258 0.0406265 9.66992 0.0964851 9.55312C0.218361 9.31953 8.4957 1.05234 8.71914 0.94062C8.92735 0.839058 9.37422 0.839058 9.57227 0.94062Z" fill="#CCCCCC" />
+                            </svg>
+                        </div>
+                        <div class="doctors__swiper-button-next swiper-button-next">
+                            <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.4277 0.94062C16.0062 1.15898 15.8234 1.57031 15.9453 2.03242C15.9961 2.23554 16.3211 2.57578 19.3883 5.64297L22.7754 9.03515L11.6949 9.04531L0.619531 9.06054L0.396094 9.21289C0.116797 9.41093 0 9.63945 0 10C0 10.4672 0.269141 10.8176 0.690625 10.9141C0.807422 10.9445 5.44375 10.9648 11.827 10.9648H22.7703L19.4391 14.2758C17.6109 16.0988 16.0672 17.673 16.0164 17.7695C15.8996 17.998 15.8945 18.45 16.0113 18.6684C16.1637 18.9527 16.4227 19.1102 16.7832 19.1305C17.0117 19.1457 17.1437 19.1254 17.2707 19.0645C17.5043 18.9477 25.7766 10.6855 25.9035 10.4469C25.9594 10.3301 26 10.1574 26 10C26 9.84258 25.9594 9.66992 25.9035 9.55312C25.7816 9.31953 17.5043 1.05234 17.2809 0.94062C17.0727 0.839058 16.6258 0.839058 16.4277 0.94062Z" fill="#367AE3" />
+                            </svg>
+                        </div>                                    
+                    </div> 
+                </div>
+
+                <div class="doctors__cards">
+                    <div class="doctors__swiper swiper doctorsSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <a href="#" class="doctors__card">
+                                    <img src="assets/img/sections/doctors/doctor-1.jpg" alt="" class="doctors__img">
+                                    <p class="doctors__fio">Кулик Владимир Андреевич</p>
+                                    <p class="doctors__post">Главный врач, руководитель клиники</p>
+                                </a>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <a href="#" class="doctors__card">
+                                    <img src="assets/img/sections/doctors/doctor-2.jpg" alt="" class="doctors__img">
+                                    <p class="doctors__fio">Пузанко Виктория Андреевна</p>
+                                    <p class="doctors__post">Медицинская сестра</p>
+                                </a>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <a href="#" class="doctors__card">
+                                    <img src="assets/img/sections/doctors/doctor-3.jpg" alt="" class="doctors__img">
+                                    <p class="doctors__fio">Зайцева Надежда Брониславовна</p>
+                                    <p class="doctors__post">Фельдшер</p>
+                                </a>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <a href="#" class="doctors__card">
+                                    <img src="assets/img/sections/doctors/doctor-4.jpg" alt="" class="doctors__img">
+                                    <p class="doctors__fio">Корякин Александр Сергеевич</p>
+                                    <p class="doctors__post">Фельдшер</p>
+                                </a>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <a href="#" class="doctors__card">
+                                    <img src="assets/img/sections/doctors/doctor-1.jpg" alt="" class="doctors__img">
+                                    <p class="doctors__fio">Кулик Владимир Андреевич</p>
+                                    <p class="doctors__post">Главный врач, руководитель клиники</p>
+                                </a>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <a href="#" class="doctors__card">
+                                    <img src="assets/img/sections/doctors/doctor-2.jpg" alt="" class="doctors__img">
+                                    <p class="doctors__fio">Пузанко Виктория Андреевна</p>
+                                    <p class="doctors__post">Медицинская сестра</p>
+                                </a>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <a href="#" class="doctors__card">
+                                    <img src="assets/img/sections/doctors/doctor-3.jpg" alt="" class="doctors__img">
+                                    <p class="doctors__fio">Зайцева Надежда Брониславовна</p>
+                                    <p class="doctors__post">Фельдшер</p>
+                                </a>
+                            </div>
+
+                            <div class="doctors__swiper-slide swiper-slide">
+                                <a href="#" class="doctors__card">
+                                    <img src="assets/img/sections/doctors/doctor-4.jpg" alt="" class="doctors__img">
+                                    <p class="doctors__fio">Корякин Александр Сергеевич</p>
+                                    <p class="doctors__post">Фельдшер</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors__btn">
+                    <a href="#" class="standart-btn white-btn doctors__link">Все специалисты</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="comments section">
+            <div class="container">
+                <div class="above-title above-title__swiper">
+                    <p>Отзывы</p>
+                    <div class="comments__swiper-btns swiper-btns">
+                        <div class="comments__swiper-button-prev swiper-button-prev">
+                            <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.57227 0.94062C9.99375 1.15898 10.1766 1.57031 10.0547 2.03242C10.0039 2.23554 9.67891 2.57578 6.61172 5.64297L3.22461 9.03515L14.3051 9.04531L25.3805 9.06054L25.6039 9.21289C25.8832 9.41093 26 9.63945 26 10C26 10.4672 25.7309 10.8176 25.3094 10.9141C25.1926 10.9445 20.5563 10.9648 14.173 10.9648H3.22969L6.56094 14.2758C8.38906 16.0988 9.93281 17.673 9.98359 17.7695C10.1004 17.998 10.1055 18.45 9.98867 18.6684C9.83633 18.9527 9.57734 19.1102 9.2168 19.1305C8.98828 19.1457 8.85625 19.1254 8.7293 19.0645C8.4957 18.9477 0.223438 10.6855 0.0964851 10.4469C0.0406265 10.3301 0 10.1574 0 10C0 9.84258 0.0406265 9.66992 0.0964851 9.55312C0.218361 9.31953 8.4957 1.05234 8.71914 0.94062C8.92735 0.839058 9.37422 0.839058 9.57227 0.94062Z" fill="#CCCCCC" />
+                            </svg>
+                        </div>
+                        <div class="comments__swiper-button-next swiper-button-next">
+                            <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.4277 0.94062C16.0062 1.15898 15.8234 1.57031 15.9453 2.03242C15.9961 2.23554 16.3211 2.57578 19.3883 5.64297L22.7754 9.03515L11.6949 9.04531L0.619531 9.06054L0.396094 9.21289C0.116797 9.41093 0 9.63945 0 10C0 10.4672 0.269141 10.8176 0.690625 10.9141C0.807422 10.9445 5.44375 10.9648 11.827 10.9648H22.7703L19.4391 14.2758C17.6109 16.0988 16.0672 17.673 16.0164 17.7695C15.8996 17.998 15.8945 18.45 16.0113 18.6684C16.1637 18.9527 16.4227 19.1102 16.7832 19.1305C17.0117 19.1457 17.1437 19.1254 17.2707 19.0645C17.5043 18.9477 25.7766 10.6855 25.9035 10.4469C25.9594 10.3301 26 10.1574 26 10C26 9.84258 25.9594 9.66992 25.9035 9.55312C25.7816 9.31953 17.5043 1.05234 17.2809 0.94062C17.0727 0.839058 16.6258 0.839058 16.4277 0.94062Z" fill="#367AE3" />
+                            </svg>
+                        </div>                                    
+                    </div> 
+                </div>
+
+                <div class="comments__top">
+                    <h2 class="comments__title title-h3">Отзывы пациентов о нашей клинике</h2>
+                    <a href="#" class="standart-btn white-btn comments__btn">Все отзывы</a>
+                </div>
+
+                <div class="comments__swiper swiper commentsSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="comments__swiper-slide swiper-slide">
+                            <div class="comments__comment">
+                                <p class="comment__text">
+                                    Спасибо сотрудникам вашей клиники за оперативную помощь при выводе из запоя. Врачи внимательно отнеслись к вызову, узнали у жены про мои хронические болезни, поставили капельницу, которая смогла быстро стабилизировать мое состояние.
+                                </p>
+                                <div class="comment__bottom">
+                                    <div class="comment__author">
+                                        <p class="comment__name">Денис С</p>
+                                        <p class="comment__age">56 лет</p>
+                                    </div>
+                                    
+                                    <p class="comment__date">12 марта 2022</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comments__swiper-slide swiper-slide">
+                            <div class="comments__comment">
+                                <p class="comment__text">
+                                    Недавно обратился в эту выездную наркологическую клинику для помощи моему отцу, который страдает от алкогольной зависимости. Потрясающий сервис! Врачи прибыли очень быстро, были вежливы и профессиональны. Провели детоксикацию прямо на дому, все объяснили и дали полезные рекомендации. Огромное спасибо!
+                                </p>
+                                <div class="comment__bottom">
+                                    <div class="comment__author">
+                                        <p class="comment__name">Игорь К</p>
+                                        <p class="comment__age">38 лет</p>
+                                    </div>
+                                    
+                                    <p class="comment__date">12 марта 2022</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comments__swiper-slide swiper-slide">
+                            <div class="comments__comment">
+                                <p class="comment__text">
+                                    Клиника спасла моего брата. Он долгое время страдал от наркотической зависимости, и мы не знали, что делать. Врачи не только оказали первую помощь, но и предложили долгосрочную программу реабилитации. Теперь он на пути к выздоровлению. Спасибо за вашу помощь и поддержку!
+                                </p>
+                                <div class="comment__bottom">
+                                    <div class="comment__author">
+                                        <p class="comment__name">Анна М</p>
+                                        <p class="comment__age">26 лет</p>
+                                    </div>
+                                    
+                                    <p class="comment__date">12 марта 2022</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comments__swiper-slide swiper-slide">
+                            <div class="comments__comment">
+                                <p class="comment__text">
+                                    Спасибо сотрудникам вашей клиники за оперативную помощь при выводе из запоя. Врачи внимательно отнеслись к вызову, узнали у жены про мои хронические болезни, поставили капельницу, которая смогла быстро стабилизировать мое состояние.
+                                </p>
+                                <div class="comment__bottom">
+                                    <div class="comment__author">
+                                        <p class="comment__name">Денис С</p>
+                                        <p class="comment__age">56 лет</p>
+                                    </div>
+                                    
+                                    <p class="comment__date">12 марта 2022</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comments__swiper-slide swiper-slide">
+                            <div class="comments__comment">
+                                <p class="comment__text">
+                                    Недавно обратился в эту выездную наркологическую клинику для помощи моему отцу, который страдает от алкогольной зависимости. Потрясающий сервис! Врачи прибыли очень быстро, были вежливы и профессиональны. Провели детоксикацию прямо на дому, все объяснили и дали полезные рекомендации. Огромное спасибо!
+                                </p>
+                                <div class="comment__bottom">
+                                    <div class="comment__author">
+                                        <p class="comment__name">Игорь К</p>
+                                        <p class="comment__age">38 лет</p>
+                                    </div>
+                                    
+                                    <p class="comment__date">12 марта 2022</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comments__swiper-slide swiper-slide">
+                            <div class="comments__comment">
+                                <p class="comment__text">
+                                    Клиника спасла моего брата. Он долгое время страдал от наркотической зависимости, и мы не знали, что делать. Врачи не только оказали первую помощь, но и предложили долгосрочную программу реабилитации. Теперь он на пути к выздоровлению. Спасибо за вашу помощь и поддержку!
+                                </p>
+                                <div class="comment__bottom">
+                                    <div class="comment__author">
+                                        <p class="comment__name">Анна М</p>
+                                        <p class="comment__age">26 лет</p>
+                                    </div>
+                                    
+                                    <p class="comment__date">12 марта 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="standart-btn white-btn comments__btn--mobile">Все отзывы</a>
+            </div>
+        </section>
+
+        <section class="form section">
+            <div class="container">
+                <div class="form__inner">
+                    <div class="form__row">
+                        <div class="form__left">
+                            <h3 class="form__title title-h3">Нужна помощь? Оставьте заявку прямо сейчас</h3>
+                            <p class="form__subtitle">Наш специалист свяжется с вами в ближайшие 30 минут.</p>
+                        </div>
+
+                        <div class="form__right">
+                            <input type="text" class="form__input" placeholder="Имя">
+                            <input type="text" class="form__input" placeholder="Телефон">
+                            <button class="standart-btn form__btn">Перезвоните мне</button>
+                            <p class="form__politic">Нажимая кнопку вы соглашаетесь с <a href="#" rel="nofollow">политикой конфеденциальности сайта</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item-first">
+                    <div class="footer__logo">
+                        <a href="index.html" class="footer__logo logo">
+                            <picture class="logo__picture">
+                                <source srcset="assets/img/logo.svg" type="image/svg+xml">
+                                <img src="assets/img/logo.png" alt="Logo">
+                            </picture>
+                        </a>  
+                    </div>
+
+                    <div class="footer__contacts">
+                        <p class="footer__contacts_title">Контакты</p>
+                        <div class="footer__contact">
+                            <img src="assets/img/icons/location.svg" class="footer__contact_img">
+                            <div class="footer__contact_inner">
+                                <a href="#" class="footer__contact_link popup-btn" data-path="popup__city">Санкт-Петербург, Очаковская улица, 9</a>
+                                <p class="footer__contact_text">Адрес call-центра</p>                                    
+                            </div>
+                        </div>
+                        <div class="footer__contact">
+                            <img src="assets/img/icons/phone.svg" class="footer__contact_img">
+                            <div class="footer__contact_inner">
+                                <a href="tel:89612691655" class="footer__contact_link">+7 (961) 269 16-55</a>
+                                <p class="footer__contact_text">Круглосуточно, анонимно</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer__license">
+                        <p>Медицинская лицензия:</p>
+                        <p>ЛО-77-01-015296</p>
+                    </div>
+                </div>
+
+                <div class="footer__item">
+                    <nav class="footer__nav">
+                        <p class="footer__nav_title">Главная страница</p>
+                        <ul class="footer__nav_list">
+                            <li><a href="#" class="footer__nav_link">О клинике</a></li>
+                            <li><a href="#" class="footer__nav_link">Специалисты</a></li>
+                            <li><a href="#" class="footer__nav_link">Лицензии</a></li>
+                            <li><a href="#" class="footer__nav_link">Контакты</a></li>
+                            <li><a href="#" class="footer__nav_link">Отзывы</a></li>
+                            <li><a href="#" class="footer__nav_link">Вопросы и ответы</a></li>
+                            <li><a href="#" class="footer__nav_link">Цены на услуги</a></li>
+                        </ul>
+                    </nav>
+
+                    <ul class="footer__politic">
+                        <li><a href="#" class="footer__politic_link">Политика конфиденциальности</a></li>
+                        <li><a href="#" class="footer__politic_link">Пользовательское соглашение</a></li>
+                        <li><a href="#" class="footer__politic_link">Карта сайта</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__item">
+                    <nav class="footer__nav">
+                        <p class="footer__nav_title">Услуги</p>
+                        <ul class="footer__nav_list">
+                            <li><a href="#" class="footer__nav_link">Вывод из запоя на дому</a></li>
+                            <li><a href="#" class="footer__nav_link">Вывод из запоя в клинике</a></li>
+                            <li><a href="#" class="footer__nav_link">Кодирование от алкоголизма</a></li>
+                            <li><a href="#" class="footer__nav_link">Мотивация зависимых на лечение</a></li>
+                            <li><a href="#" class="footer__nav_link">Лечение алкоголизма</a></li>
+                            <li><a href="#" class="footer__nav_link">Вызов нарколога на дом </a></li>
+                            <li><a href="#" class="footer__nav_link">Реабилитация в стационаре</a></li>
+                            <li><a href="#" class="footer__nav_link">Лечение алкоголизма</a></li>
+                            <li><a href="#" class="footer__nav_link">Вызов нарколога на дом </a></li>
+                            <li><a href="#" class="footer__nav_link">Реабилитация в стационаре</a></li>
+                        </ul>
+                    </nav>
+
+                    <ul class="footer__politic--mobile">
+                        <li><a href="#" class="footer__politic_link">Политика конфиденциальности</a></li>
+                        <li><a href="#" class="footer__politic_link">Пользовательское соглашение</a></li>
+                        <li><a href="#" class="footer__politic_link">Карта сайта</a></li>
+                    </ul>
+
+                    <div class="footer__license--mobile">
+                        <p>Медицинская лицензия:</p>
+                        <p>ЛО-77-01-015296</p>
+                    </div>
+                </div>
+
+                <div class="footer__item-last">
+                    <button class="standart-btn footer__btn popup-btn" data-path="popup-call">Перезвоните мне</button>
+                    <button class="standart-btn white-btn footer__btn popup-btn" data-path="popup-call">Вызвать врача</button>
+
+                    <div class="footer__networks">
+                        <div class="footer__networks__left">
+                            <a href="#" class="footer__networks_link">
+                                <img src="assets/img/icons/whatsapp.svg" alt="whatsapp">
+                            </a>
+
+                            <a href="#" class="footer__networks_link">
+                                <img src="assets/img/icons/tg.svg" alt="tg">
+                            </a>
+
+                            <button class="footer__networks_link">
+                                <img src="assets/img/icons/eye.svg" alt="Версия для слабовидящих">
+                            </button>                            
+                        </div>
+
+                        <button class="standart-btn footer__btn-up">
+                            <span>Наверх</span>
+                            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.783064 9.23457C1.07533 9.53495 1.49749 9.5106 1.83034 9.16962C1.96836 9.03161 3.33225 7.52158 4.84228 5.83294L7.60255 2.75606L7.62691 8.27805L7.64314 17.3609L7.82175 17.5476C8.05718 17.7992 8.52805 17.7992 8.76349 17.5476L8.94209 17.3609L8.95833 8.28617L8.98269 2.75606L11.743 5.83294C15.1933 9.6892 14.9497 9.43753 15.3069 9.43753C15.8509 9.43753 16.1675 8.90983 15.9077 8.43896C15.8103 8.26036 9.84324 1.56265 9.0314 0.726448C8.64983 0.336761 8.53617 0.263695 8.29262 0.263695C7.92729 0.263695 7.976 0.223103 4.2334 4.4041C2.6503 6.1658 1.18087 7.80572 0.969788 8.04116C0.507037 8.56074 0.450209 8.90983 0.783064 9.23457Z" fill="#367AE3" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__plashka">
+            <div class="container">
+                <p>Copyright 2022 honest-narcology.ru в России. Указанные цены не являются публичной офертой. Сайт использует cookies. Сайт является коммерческой собственностью и финансируется из прибыли частной компании. Сайт не размещает рекламу и не получает от нее доход. </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Pop-up -->
+    <div class="popup" data-target="popup-call"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+                <div class="popup__top">
+                    <p class="popup__title original-title">Заказать обратный звонок</p>
+                    <p class="popup__subtitle">Оставьте свои данные, наш специалист свяжется с Вами в течение 30 минут.</p>                    
+                </div>
+                <form class="popup__form">
+                    <input type="text" class="form-input popup__input" placeholder="Имя" required>
+                    <input type="tel" class="form-input popup__input" placeholder="Телефон" required>
+                    <button class="standart-btn popup__btn popup-btn" type="submit" ><span>Перезвоните мне</span></button>
+                    <p class="form-politic popup__politic">
+                        Нажимая кнопку вы соглашаетесь с <a href="#" rel="nofollow">политикой конфиденциальности сайта</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" data-target="popup-ok"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+                <div class="popup__top">
+                    <p class="popup__title original-title">Спасибо!</p>
+                    <p class="popup__subtitle">Данные успешно отправлены.</p>                    
+                </div>
+                <button class="standart-btn popup__btn popup__btn-ok"><span>Окей</span></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" data-target="popup-error"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+
+                <div class="popup__top">
+                    <p class="popup__title popup__title-error original-title">Ошибка!</p>
+                    <p class="popup__subtitle">Что-то пошло не так, перезагрузите страницу и отправьте форму снова.</p>                    
+                </div>
+                <button class="standart-btn popup__btn popup__btn-reload" type="submit"><span>Перезагрузить страницу</span></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" data-target="popup__city"> 
+        <div class="popup__body">
+            <div class="popup__content popup__content_search search-wrapper">
+    
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture>
+    
+                <div class="container">
+                    <p class="popup__title">Выберите свой город</p>
+                    <form class="popup__search-form">
+                        <input type="search" placeholder="Введите запрос" required class="popup__search_input"> 
+                    </form>
+    
+                    <div class="popup__search-city">
+                        <ul class="popup__search-city_list">
+                            <li><a href="#" class="popup__search-city_link popup__search-city_link--active">Санкт-Петербург</a></li> 
+                            <li><a href="#" class="popup__search-city_link">Выборг</a></li>
+                            <li><a href="#" class="popup__search-city_link">Кириши</a></li>
+                            <li><a href="#" class="popup__search-city_link">Бокситогорск</a></li>
+                            <li><a href="#" class="popup__search-city_link">Высоцк</a></li>
+                            <li><a href="#" class="popup__search-city_link">Коммунар</a></li>
+                            <li><a href="#" class="popup__search-city_link">Бугры</a></li>
+                            <li><a href="#" class="popup__search-city_link">Гатчина</a></li>
+                            <li><a href="#" class="popup__search-city_link">Кировск</a></li>
+                            <li><a href="#" class="popup__search-city_link">Волосово</a></li>
+                            <li><a href="#" class="popup__search-city_link">Ивангород</a></li>
+                            <li><a href="#" class="popup__search-city_link">Колтуши</a></li>
+                            <li><a href="#" class="popup__search-city_link">Волхов</a></li>
+                            <li><a href="#" class="popup__search-city_link">Кудрово</a></li>
+                            <li><a href="#" class="popup__search-city_link">Всеволожск</a></li>
+                            <li><a href="#" class="popup__search-city_link">Кингисепп</a></li>
+                            <li><a href="#" class="popup__search-city_link">Луга</a></li>
+                            <li><a href="#" class="popup__search-city_link">Гатчина</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="popup__search-city popup__search-result none">
+                        <p class="no-results-message none">Результатов не найдено</p>
+                        <ul class="search-list popup__city-list popup__search-city_list">
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Санкт-Петербург</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Выборг</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Кириши</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Бокситогорск</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Высоцк</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Коммунар</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Бугры</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Гатчина</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Кировск</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Волосово</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Ивангород</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Колтуши</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Волхов</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Кудрово</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Всеволожск</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Кингисепп</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Луга</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Гатчина</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup__cookie" class="popup__cookie">
+        <div class="popup__cookie_row">
+            <p class="popup__cookie_text">Мы используем <a href="#">файлы cookie</a>, чтобы улучшить сайт для Вас</p>  
+            <button id="popup__cookie_btn" class="standart-btn popup__cookie_btn">Хорошо</button>              
+        </div>
+    </div>
+
+
+</body>
+</html>

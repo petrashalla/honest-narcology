@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/build/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/build/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <title>Name</title>
+    <meta name='keywords' content='' />
+    <meta name='description' content='' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script src="assets/js/build/swiper-bundle.min.js" defer></script> 
+    <script src="assets/js/build/fancybox.min.js" defer></script>
+    <script src="assets/js/main.min.js" defer></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="plashka header__plashka">
+            <div class="container header__plashka-height">
+                <p class="plashka__text">Мы работаем круглосуточно, в выходные и праздники бригады работают в усиленном режиме. В праздничные дни количество бригад увеличено.</p>                
+            </div>
+        </div>
+
+        <div class="header__inner">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top_row">
+                        <div class="header__top_logo">
+                            <a href="index.html" class="header__logo logo">
+                                <picture class="logo__picture">
+                                    <source srcset="assets/img/logo.svg" type="image/svg+xml">
+                                    <img src="assets/img/logo.png" alt="Logo">
+                                </picture>
+                            </a>  
+                        </div>
+
+                        <div class="header__top_item header__top_contacts">
+                            <div class="header__top_contact">
+                                <img src="assets/img/icons/location.svg" class="header__contact_img">
+                                <div class="header__contact_inner">
+                                    <a href="#" class="header__contact_link popup-btn" data-path="popup__city">Санкт-Петербург, Очаковская улица, 9</a>
+                                    <p class="header__contact_text">Адрес call-центра</p>                                    
+                                </div>
+                            </div>
+                            <div class="header__top_contact">
+                                <img src="assets/img/icons/phone.svg" class="header__contact_img">
+                                <div class="header__contact_inner">
+                                    <a href="tel:89612691655" class="header__contact_link">+7 (961) 269 16-55</a>
+                                    <p class="header__contact_text">Круглосуточно, анонимно</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="header__top_item">
+                            <a href="#" class="header__top_network">
+                                <img src="assets/img/icons/whatsapp.svg" alt="whatsapp">
+                            </a>
+                            <a href="#" class="header__top_network">
+                                <img src="assets/img/icons/tg.svg" alt="tg">
+                            </a>
+                        </div>
+
+                        <div class="header__top_item">
+                            <button class="standart-btn white-btn header__top_btn popup-btn" data-path="popup-call">Вызвать врача</button>
+                            <button class="standart-btn header__top_btn popup-btn" data-path="popup-call">Перезвоните мне</button>
+                        </div>
+
+
+                        <div class="header-mobile__wrapper">
+                            <div class="header__top--mobile">
+                                <a href="tel:88000000000" class="header__btn-phone--mobile">
+                                    <img src="assets/img/icons/phone.svg" class="header__btn-phone--mobile">
+                                </a>
+                                <div class="burger__menu">
+                                    <span> </span>
+                                    <span> </span>
+                                    <span> </span>
+                                </div>                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="header__bottom">
+                <div class="container">
+                    <div class="header-mobile__wrapper"> 
+                        <form class="header__bottom_search">
+                            <input id="searchInput" type="search" placeholder="Поиск по сайту" required class="header__search_input"> 
+                            <img src="assets/img/icons/search.svg" class="header__search_img">
+                            <div id="searchResults" class="header__search-result" style="display: none;">
+                                <p class="header__search-result_text">Результаты поиска:</p>
+                                <ul class="header__search-result_list">
+                                    <li><a href="#" class="header__search-result_link"></a></li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="header__bottom_row">
+                        <nav class="header__bottom_nav">
+                            <ul class="header__bottom_list">
+                                <li class="header__nav_item hide-item">
+                                    <button class="header__nav_link header__link hide-item__link">Услуги</button>
+                                    <div class="hide-item__content header__content">
+                                        <ul class="header__submenu">
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Лечение алкоголизма</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Подпункт 1</a></li>
+                                                        <li><a href="#">Подпункт 2</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Лечение наркомании</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Анонимное лечение наркомании</a></li>
+                                                        <li><a href="#">Лечение никотиновой зависимости</a></li>
+                                                        <li><a href="#">Лечение зависимости от марихуаны</a></li>
+                                                        <li><a href="#">Лечение зависимости от соли</a></li>
+                                                        <li><a href="#">Лечение зависимости от кодеина</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Реабилитация</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Анонимное лечение наркомании</a></li>
+                                                        <li><a href="#">Лечение никотиновой зависимости</a></li>
+                                                        <li><a href="#">Лечение зависимости от марихуаны</a></li>
+                                                        <li><a href="#">Лечение зависимости от соли</a></li>
+                                                        <li><a href="#">Лечение зависимости от кодеина</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Вывод из запоя</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Анонимное лечение наркомании</a></li>
+                                                        <li><a href="#">Лечение никотиновой зависимости</a></li>
+                                                        <li><a href="#">Лечение зависимости от марихуаны</a></li>
+                                                        <li><a href="#">Лечение зависимости от соли</a></li>
+                                                        <li><a href="#">Лечение зависимости от кодеина</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Кодирование от алкоголизма</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Анонимное лечение наркомании</a></li>
+                                                        <li><a href="#">Лечение никотиновой зависимости</a></li>
+                                                        <li><a href="#">Лечение зависимости от марихуаны</a></li>
+                                                        <li><a href="#">Лечение зависимости от соли</a></li>
+                                                        <li><a href="#">Лечение зависимости от кодеина</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="header__sublink">
+                                                <button class="header__sublink_button">Психиатрия</button>
+                                                <div class="header__subsubmenu_wrapper">
+                                                    <ul class="header__subsubmenu">
+                                                        <li><a href="#">Подпункт 1</a></li>
+                                                        <li><a href="#">Подпункт 2</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="header__nav_item hide-item">
+                                    <button class="header__nav_link header__link hide-item__link">О клинике</button>
+                                    <div class="hide-item__content header__content">
+                                        <ul class="header__submenu">
+                                            <li class="header__sublink"><a class="header__sublink_link" href="service.html">Услуги</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="article.html">Статья</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="articles.html">Блог</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="price.html">Цены</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="licenses.html">Лицензии</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="comments.html">Отзывы</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="gallery.html">Фотографии</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="doctors.html">Врачи</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="doctor.html">Карточка врача</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="contacts.html">Контакты</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="faq.html">Вопрос-ответ</a></li>
+                                            <li class="header__sublink"><a class="header__sublink_link" href="error.html">404</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="header__nav_item">
+                                    <a href="#" class="header__nav_link header__link">Отзывы</a>
+                                </li>
+
+                                <li class="header__nav_item">
+                                    <a href="#" class="header__nav_link header__link">Специалисты</a>
+                                </li>
+
+                                <li class="header__nav_item">
+                                    <a href="#" class="header__nav_link header__link">Контакты</a>
+                                </li>
+
+                                <li class="header__nav_item">
+                                    <a href="#" class="header__nav_link header__link">Блог</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="header__bottom_right">
+                            <button class="header__bottom_btn">
+                                <img src="assets/img/icons/eye.svg" alt="Версия для слабовидящих">
+                            </button>
+                            <p class="header__bottom_license">Медицинская лицензия: <span>ЛО-77-01-015296</span></p>
+                            <form class="header__bottom_search">
+                                <input id="searchInput" type="search" placeholder="Поиск по сайту" required class="header__search_input"> 
+                                <img src="assets/img/icons/search.svg" class="header__search_img">
+                                <div id="searchResults" class="header__search-result" style="display: none;">
+                                    <p class="header__search-result_text">Результаты поиска:</p>
+                                    <ul class="header__search-result_list">
+                                        <li><a href="#" class="header__search-result_link"></a></li>
+                                    </ul>
+                                </div>
+                            </form>
+
+
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="header-mobile__wrapper">
+                    <div class="container">
+                        <div class="header-mobile__content">
+                            <div class="header-mobile__btns">
+                                <button class="standart-btn white-btn header-mobile__btn popup-btn" data-path="popup-call">
+                                    <span>Вызвать врача</span>
+                                </button>
+                                <button class="standart-btn header-mobile__btn popup-btn" data-path="popup-call">
+                                    <span>Перезвоните мне</span>
+                                </button>
+                            </div> 
+
+                            <div class="header__contacts--mobile">
+                                <div class="header__top_contact">
+                                    <img src="assets/img/icons/location.svg" class="header__contact_img">
+                                    <div class="header__contact_inner">
+                                        <a href="#" class="header__contact_link popup-btn" data-path="popup__city">Санкт-Петербург, Очаковская улица, 9</a>
+                                        <p class="header__contact_text">Адрес call-центра</p>                                    
+                                    </div>
+                                </div>
+                                <div class="header__top_contact">
+                                    <img src="assets/img/icons/phone.svg" class="header__contact_img">
+                                    <div class="header__contact_inner">
+                                        <a href="tel:89612691655" class="header__contact_link">+7 (961) 269 16-55</a>
+                                        <p class="header__contact_text">Круглосуточно, анонимно</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="header__info--mobile">
+                                <div class="header__networks">
+                                    <a href="#" class="header__top_network">
+                                        <img src="assets/img/icons/whatsapp.svg" alt="whatsapp">
+                                    </a>
+                                    <a href="#" class="header__top_network">
+                                        <img src="assets/img/icons/tg.svg" alt="tg">
+                                    </a>                                
+                                </div>
+
+                                <div class="header__licen">
+                                    <button class="header__bottom_btn">
+                                        <img src="assets/img/icons/eye.svg" alt="Версия для слабовидящих">
+                                    </button>
+                                    <p class="header__bottom_license">Медицинская лицензия: <span>ЛО-77-01-015296</span></p>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="doctors section-page">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li>Врачи</li>
+                </ul>
+
+                <div class="price__inner">
+                    <div class="page__top">
+                        <h1 class="title price__top_item">Специалисты нашей клиники</h1>
+                        <p class="price__text price__top_item">Наша наркологическая клиника предлагает полный комплекс услуг — от выведения из запоя и детоксикации на дому до социальной реабилитации алкоголиков и наркозависимых с применением наиболее современных методик.</p>
+                    </div>
+
+                    <div class="doctors__grid">
+                        <a href="#" class="doctors__card">
+                            <img src="assets/img/sections/doctors/doctor-1.jpg" alt="" class="doctors__img">
+                            <p class="doctors__fio">Кулик Владимир Андреевич</p>
+                            <p class="doctors__post">Главный врач, руководитель клиники</p>
+                        </a>
+
+                        <a href="#" class="doctors__card">
+                            <img src="assets/img/sections/doctors/doctor-2.jpg" alt="" class="doctors__img">
+                            <p class="doctors__fio">Пузанко Виктория Андреевна</p>
+                            <p class="doctors__post">Медицинская сестра</p>
+                        </a>
+
+                        <a href="#" class="doctors__card">
+                            <img src="assets/img/sections/doctors/doctor-3.jpg" alt="" class="doctors__img">
+                            <p class="doctors__fio">Зайцева Надежда Брониславовна</p>
+                            <p class="doctors__post">Фельдшер</p>
+                        </a>
+
+                        <a href="#" class="doctors__card">
+                            <img src="assets/img/sections/doctors/doctor-4.jpg" alt="" class="doctors__img">
+                            <p class="doctors__fio">Корякин Александр Сергеевич</p>
+                            <p class="doctors__post">Фельдшер</p>
+                        </a>
+
+                        <a href="#" class="doctors__card">
+                            <img src="assets/img/sections/doctors/doctor-3.jpg" alt="" class="doctors__img">
+                            <p class="doctors__fio">Зайцева Надежда Брониславовна</p>
+                            <p class="doctors__post">Фельдшер</p>
+                        </a>
+
+                        <a href="#" class="doctors__card">
+                            <img src="assets/img/sections/doctors/doctor-4.jpg" alt="" class="doctors__img">
+                            <p class="doctors__fio">Корякин Александр Сергеевич</p>
+                            <p class="doctors__post">Фельдшер</p>
+                        </a>
+
+                        <a href="#" class="doctors__card">
+                            <img src="assets/img/sections/doctors/doctor-1.jpg" alt="" class="doctors__img">
+                            <p class="doctors__fio">Кулик Владимир Андреевич</p>
+                            <p class="doctors__post">Главный врач, руководитель клиники</p>
+                        </a>
+
+                        <a href="#" class="doctors__card">
+                            <img src="assets/img/sections/doctors/doctor-2.jpg" alt="" class="doctors__img">
+                            <p class="doctors__fio">Пузанко Виктория Андреевна</p>
+                            <p class="doctors__post">Медицинская сестра</p>
+                        </a>
+                    
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item-first">
+                    <div class="footer__logo">
+                        <a href="index.html" class="footer__logo logo">
+                            <picture class="logo__picture">
+                                <source srcset="assets/img/logo.svg" type="image/svg+xml">
+                                <img src="assets/img/logo.png" alt="Logo">
+                            </picture>
+                        </a>  
+                    </div>
+
+                    <div class="footer__contacts">
+                        <p class="footer__contacts_title">Контакты</p>
+                        <div class="footer__contact">
+                            <img src="assets/img/icons/location.svg" class="footer__contact_img">
+                            <div class="footer__contact_inner">
+                                <a href="#" class="footer__contact_link popup-btn" data-path="popup__city">Санкт-Петербург, Очаковская улица, 9</a>
+                                <p class="footer__contact_text">Адрес call-центра</p>                                    
+                            </div>
+                        </div>
+                        <div class="footer__contact">
+                            <img src="assets/img/icons/phone.svg" class="footer__contact_img">
+                            <div class="footer__contact_inner">
+                                <a href="tel:89612691655" class="footer__contact_link">+7 (961) 269 16-55</a>
+                                <p class="footer__contact_text">Круглосуточно, анонимно</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer__license">
+                        <p>Медицинская лицензия:</p>
+                        <p>ЛО-77-01-015296</p>
+                    </div>
+                </div>
+
+                <div class="footer__item">
+                    <nav class="footer__nav">
+                        <p class="footer__nav_title">Главная страница</p>
+                        <ul class="footer__nav_list">
+                            <li><a href="#" class="footer__nav_link">О клинике</a></li>
+                            <li><a href="#" class="footer__nav_link">Специалисты</a></li>
+                            <li><a href="#" class="footer__nav_link">Лицензии</a></li>
+                            <li><a href="#" class="footer__nav_link">Контакты</a></li>
+                            <li><a href="#" class="footer__nav_link">Отзывы</a></li>
+                            <li><a href="#" class="footer__nav_link">Вопросы и ответы</a></li>
+                            <li><a href="#" class="footer__nav_link">Цены на услуги</a></li>
+                        </ul>
+                    </nav>
+
+                    <ul class="footer__politic">
+                        <li><a href="#" class="footer__politic_link">Политика конфиденциальности</a></li>
+                        <li><a href="#" class="footer__politic_link">Пользовательское соглашение</a></li>
+                        <li><a href="#" class="footer__politic_link">Карта сайта</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__item">
+                    <nav class="footer__nav">
+                        <p class="footer__nav_title">Услуги</p>
+                        <ul class="footer__nav_list">
+                            <li><a href="#" class="footer__nav_link">Вывод из запоя на дому</a></li>
+                            <li><a href="#" class="footer__nav_link">Вывод из запоя в клинике</a></li>
+                            <li><a href="#" class="footer__nav_link">Кодирование от алкоголизма</a></li>
+                            <li><a href="#" class="footer__nav_link">Мотивация зависимых на лечение</a></li>
+                            <li><a href="#" class="footer__nav_link">Лечение алкоголизма</a></li>
+                            <li><a href="#" class="footer__nav_link">Вызов нарколога на дом </a></li>
+                            <li><a href="#" class="footer__nav_link">Реабилитация в стационаре</a></li>
+                            <li><a href="#" class="footer__nav_link">Лечение алкоголизма</a></li>
+                            <li><a href="#" class="footer__nav_link">Вызов нарколога на дом </a></li>
+                            <li><a href="#" class="footer__nav_link">Реабилитация в стационаре</a></li>
+                        </ul>
+                    </nav>
+
+                    <ul class="footer__politic--mobile">
+                        <li><a href="#" class="footer__politic_link">Политика конфиденциальности</a></li>
+                        <li><a href="#" class="footer__politic_link">Пользовательское соглашение</a></li>
+                        <li><a href="#" class="footer__politic_link">Карта сайта</a></li>
+                    </ul>
+
+                    <div class="footer__license--mobile">
+                        <p>Медицинская лицензия:</p>
+                        <p>ЛО-77-01-015296</p>
+                    </div>
+                </div>
+
+                <div class="footer__item-last">
+                    <button class="standart-btn footer__btn popup-btn" data-path="popup-call">Перезвоните мне</button>
+                    <button class="standart-btn white-btn footer__btn popup-btn" data-path="popup-call">Вызвать врача</button>
+
+                    <div class="footer__networks">
+                        <div class="footer__networks__left">
+                            <a href="#" class="footer__networks_link">
+                                <img src="assets/img/icons/whatsapp.svg" alt="whatsapp">
+                            </a>
+
+                            <a href="#" class="footer__networks_link">
+                                <img src="assets/img/icons/tg.svg" alt="tg">
+                            </a>
+
+                            <button class="footer__networks_link">
+                                <img src="assets/img/icons/eye.svg" alt="Версия для слабовидящих">
+                            </button>                            
+                        </div>
+
+                        <button class="standart-btn footer__btn-up">
+                            <span>Наверх</span>
+                            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.783064 9.23457C1.07533 9.53495 1.49749 9.5106 1.83034 9.16962C1.96836 9.03161 3.33225 7.52158 4.84228 5.83294L7.60255 2.75606L7.62691 8.27805L7.64314 17.3609L7.82175 17.5476C8.05718 17.7992 8.52805 17.7992 8.76349 17.5476L8.94209 17.3609L8.95833 8.28617L8.98269 2.75606L11.743 5.83294C15.1933 9.6892 14.9497 9.43753 15.3069 9.43753C15.8509 9.43753 16.1675 8.90983 15.9077 8.43896C15.8103 8.26036 9.84324 1.56265 9.0314 0.726448C8.64983 0.336761 8.53617 0.263695 8.29262 0.263695C7.92729 0.263695 7.976 0.223103 4.2334 4.4041C2.6503 6.1658 1.18087 7.80572 0.969788 8.04116C0.507037 8.56074 0.450209 8.90983 0.783064 9.23457Z" fill="#367AE3" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__plashka">
+            <div class="container">
+                <p>Copyright 2022 honest-narcology.ru в России. Указанные цены не являются публичной офертой. Сайт использует cookies. Сайт является коммерческой собственностью и финансируется из прибыли частной компании. Сайт не размещает рекламу и не получает от нее доход. </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Pop-up -->
+    <div class="popup" data-target="popup-call"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+                <div class="popup__top">
+                    <p class="popup__title original-title">Заказать обратный звонок</p>
+                    <p class="popup__subtitle">Оставьте свои данные, наш специалист свяжется с Вами в течение 30 минут.</p>                    
+                </div>
+                <form class="popup__form">
+                    <input type="text" class="form-input popup__input" placeholder="Имя" required>
+                    <input type="tel" class="form-input popup__input" placeholder="Телефон" required>
+                    <button class="standart-btn popup__btn popup-btn" type="submit" ><span>Перезвоните мне</span></button>
+                    <p class="form-politic popup__politic">
+                        Нажимая кнопку вы соглашаетесь с <a href="#" rel="nofollow">политикой конфиденциальности сайта</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" data-target="popup-ok"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+                <div class="popup__top">
+                    <p class="popup__title original-title">Спасибо!</p>
+                    <p class="popup__subtitle">Данные успешно отправлены.</p>                    
+                </div>
+                <button class="standart-btn popup__btn popup__btn-ok"><span>Окей</span></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" data-target="popup-error"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+
+                <div class="popup__top">
+                    <p class="popup__title popup__title-error original-title">Ошибка!</p>
+                    <p class="popup__subtitle">Что-то пошло не так, перезагрузите страницу и отправьте форму снова.</p>                    
+                </div>
+                <button class="standart-btn popup__btn popup__btn-reload" type="submit"><span>Перезагрузить страницу</span></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" data-target="popup__city"> 
+        <div class="popup__body">
+            <div class="popup__content popup__content_search search-wrapper">
+    
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture>
+    
+                <div class="container">
+                    <p class="popup__title">Выберите свой город</p>
+                    <form class="popup__search-form">
+                        <input type="search" placeholder="Введите запрос" required class="popup__search_input"> 
+                    </form>
+    
+                    <div class="popup__search-city">
+                        <ul class="popup__search-city_list">
+                            <li><a href="#" class="popup__search-city_link popup__search-city_link--active">Санкт-Петербург</a></li> 
+                            <li><a href="#" class="popup__search-city_link">Выборг</a></li>
+                            <li><a href="#" class="popup__search-city_link">Кириши</a></li>
+                            <li><a href="#" class="popup__search-city_link">Бокситогорск</a></li>
+                            <li><a href="#" class="popup__search-city_link">Высоцк</a></li>
+                            <li><a href="#" class="popup__search-city_link">Коммунар</a></li>
+                            <li><a href="#" class="popup__search-city_link">Бугры</a></li>
+                            <li><a href="#" class="popup__search-city_link">Гатчина</a></li>
+                            <li><a href="#" class="popup__search-city_link">Кировск</a></li>
+                            <li><a href="#" class="popup__search-city_link">Волосово</a></li>
+                            <li><a href="#" class="popup__search-city_link">Ивангород</a></li>
+                            <li><a href="#" class="popup__search-city_link">Колтуши</a></li>
+                            <li><a href="#" class="popup__search-city_link">Волхов</a></li>
+                            <li><a href="#" class="popup__search-city_link">Кудрово</a></li>
+                            <li><a href="#" class="popup__search-city_link">Всеволожск</a></li>
+                            <li><a href="#" class="popup__search-city_link">Кингисепп</a></li>
+                            <li><a href="#" class="popup__search-city_link">Луга</a></li>
+                            <li><a href="#" class="popup__search-city_link">Гатчина</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="popup__search-city popup__search-result none">
+                        <p class="no-results-message none">Результатов не найдено</p>
+                        <ul class="search-list popup__city-list popup__search-city_list">
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Санкт-Петербург</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Выборг</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Кириши</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Бокситогорск</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Высоцк</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Коммунар</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Бугры</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Гатчина</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Кировск</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Волосово</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Ивангород</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Колтуши</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Волхов</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Кудрово</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Всеволожск</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Кингисепп</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Луга</a></li>
+                            <li class="search-item"><a href="#" class="popup__search-city_link search-name">Гатчина</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="popup popup__search" data-target="popup__search"> 
+        <div class="popup__body popup__body_search">
+            <div class="popup__content popup__content_search search-wrapper">
+
+                <picture  class="close-popup close-popup__search">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture>
+
+                <div class="container">
+                    <p class="popup__title popup__title_search">Поиск по сайту</p>
+                    <form class="popup__search-form">
+                        <input type="search" placeholder="Введите запрос" required class="popup__search_input"> 
+                        <button type="submit" class="popup__search_btn"><span>Поиск</span></button> 
+                    </form>
+
+                    <div class="popup__search-result none">
+                        <p class="popup__search-result_text">По вашему запросу найдено: <span>20</span></p>
+                        <ul class="popup__search-list search-list">
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Тут ссылка</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Алкоголизм</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Алкоголизм</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Алкоголизм</a><span>категория</span></li>
+                            <li class="search-item"><a href="#" class="search-name">Алкоголизм</a><span>категория</span></li>
+                        </ul>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" data-target="popup-comment"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup">
+                    <source srcset="assets/img/icons/close-popup.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/close-popup.png" alt="close_popup">
+                </picture> 
+                <div class="popup__top">
+                    <p class="popup__title original-title">Оставьте ваш отзыв </p>
+                    <p class="popup__subtitle">Ваше мнение для улучшения работы нашей клиники и наших специалистов</p>                    
+                </div>
+                <form class="popup__form">
+                        <label for="popup-name"  class="form-text popup__label">Ваше имя</label>
+                        <input id="popup-name" type="text" class="form-input popup__input" placeholder="Введите имя" required>
+
+                        <label for="popup-message"  class="form-text popup__label">Сообщение</label>
+                        <textarea id="popup-message" class="form-textarea popup__textarea" placeholder="Введите ваше сообщение" required></textarea>
+                        
+                        <button class="standart-btn akcent-btn popup__btn popup-btn" type="submit" data-path="popup-ok"><span>Оставить отзыв</span></button>
+                        <p class="form-politic popup__politic">
+                            Отправляя заявку, вы соглашаетесь с <a href="#" rel="nofollow">политикой конфиденциальности</a>
+                        </p>
+                </form>
+                <div class="popup__bg section-bg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                    <img src="assets/img/icons/section-bg.svg">
+                </div> 
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
