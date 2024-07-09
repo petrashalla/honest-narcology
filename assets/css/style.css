@@ -2264,15 +2264,19 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-
     -webkit-box-flex: 1;
-
         -ms-flex: 1 0 24%;
-
             flex: 1 0 24%;
+    transition: all 0.4s ease;
 }
 
-.services__card--big {
+/* .services__card--big {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 36%;
+            flex: 1 0 36%;
+} */
+.services__card:nth-child(6n),
+.services__card:nth-child(6n+1) {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 36%;
             flex: 1 0 36%;
@@ -2284,6 +2288,7 @@ body {
     line-height: 133%;
 }
 .services__card_title {
+    color: #636363;
     margin-bottom: 14px;
 }
 .services__card_price {
@@ -2295,7 +2300,17 @@ body {
     width: 100%;
     height: 166px;
     -o-object-fit: cover;
-       object-fit: cover;
+        object-fit: cover;
+}
+
+.services__card:hover {
+    background: #367ae3;
+    .services__card_title {
+        color: #fff;
+    }
+    .services__card_price {
+        color: #fff;
+    }
 }
 
 /* .blue-bg {

@@ -490,51 +490,65 @@ document.addEventListener('DOMContentLoaded', function () {
 /*  pop-up menu  */
 document.addEventListener('DOMContentLoaded', function () {
 	const list = document.querySelectorAll('.hide-item')
+	const sublinkButtons = document.querySelectorAll('.header__sublink_button')
 
+	// Функция для обработки клика по основным пунктам меню
 	function accordion(e) {
 		e.stopPropagation()
-		if (this.classList.contains('hide-item--active')) {
-			this.classList.remove('hide-item--active')
-		} else {
-			for (let i = 0; i < list.length; i++) {
-				list[i].classList.remove('hide-item--active')
-			}
+		const isActive = this.classList.contains('hide-item--active')
+		list.forEach(item => item.classList.remove('hide-item--active'))
+		if (!isActive) {
 			this.classList.add('hide-item--active')
 		}
 	}
-	for (let i = 0; i < list.length; i++) {
-		list[i].addEventListener('click', accordion)
-	}
 
-	const sublinkButtons = document.querySelectorAll('.header__sublink_button')
+	// Добавляем обработчик клика для основных пунктов меню
+	list.forEach(item => {
+		item.addEventListener('click', accordion)
+	})
+
+	// Функция для обработки клика по кнопкам подменю
 	function toggleSubmenu(e) {
 		e.stopPropagation()
 		const submenuWrapper = this.nextElementSibling
-		if (submenuWrapper.classList.contains('show')) {
-			submenuWrapper.classList.remove('show')
-		} else {
-			document
-				.querySelectorAll('.header__subsubmenu_wrapper')
-				.forEach(wrapper => wrapper.classList.remove('show'))
+		const isOpen = submenuWrapper.classList.contains('show')
+		document
+			.querySelectorAll('.header__subsubmenu_wrapper')
+			.forEach(wrapper => {
+				wrapper.classList.remove('show')
+			})
+		if (!isOpen) {
 			submenuWrapper.classList.add('show')
 		}
 	}
-	for (let i = 0; i < sublinkButtons.length; i++) {
-		sublinkButtons[i].addEventListener('click', toggleSubmenu)
-	}
 
-	document.addEventListener('click', function () {
-		document
-			.querySelectorAll('.header__subsubmenu_wrapper')
-			.forEach(wrapper => wrapper.classList.remove('show'))
+	// Добавляем обработчик клика для кнопок подменю
+	sublinkButtons.forEach(button => {
+		button.addEventListener('click', toggleSubmenu)
 	})
 
+	// Обработчик клика для закрытия всех подменю при клике вне меню
+	document.addEventListener('click', function (e) {
+		if (!e.target.closest('.header__bottom_nav')) {
+			document.querySelectorAll('.hide-item--active').forEach(item => {
+				item.classList.remove('hide-item--active')
+			})
+			document
+				.querySelectorAll('.header__subsubmenu_wrapper')
+				.forEach(wrapper => {
+					wrapper.classList.remove('show')
+				})
+		}
+	})
+
+	// Остановка всплытия события для подменю
 	document.querySelectorAll('.header__subsubmenu_wrapper').forEach(wrapper => {
 		wrapper.addEventListener('click', function (e) {
 			e.stopPropagation()
 		})
 	})
 })
+/*  end pop-up menu  */
 
 /*  read more  */
 const info = document.querySelectorAll('.text-block__more')
